@@ -3,15 +3,14 @@ module.exports = {
 	purge: ['./src/**/*.{html,js,svelte,ts}'],
 	darkMode: false, // or 'media' or 'class' => use depending on dark mode approach
 	theme: {
-		extend: {
-			// Extend colors and themes here
-			// If no dark or light theme is available, you can add colors directly to extend
-			dark: {
-				// Dark Theme colors
-			},
-			light: {
-				// light theme colors
-			}
+		colors: {
+			...require('tailwindcss/colors'),
+			dark_primary: '#0E0E0E',
+			dark_secondary: '#161616',
+			bright_primary: '#E7E7E9',
+			bright_secondary: '#D0D0D0',
+			purple_tint: '#6A52FF',
+			red_tint: '#9D2B34'
 		}
 	},
 	variants: {
