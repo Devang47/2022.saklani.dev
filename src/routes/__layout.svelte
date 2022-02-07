@@ -1,10 +1,14 @@
 <script>
-  import '$styles/tailwind.css'
-  import '$styles/custom.css'
+	import '$styles/tailwind.css';
+	import '$styles/custom.css';
+
+	import Footer from '$sections/Footer/index.svelte';
 </script>
 
 <svelte:head>
-	<title>IDS.Company</title>
+	<title>Devang Saklani | Web Developer</title>
 </svelte:head>
 
 <slot />
+
+<Footer />
