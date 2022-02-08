@@ -11,3 +11,26 @@ canvas {
 	position: relative;
 	z-index: -10;
 }
+
+.highlight-name {
+	@apply relative inline-block font-medium;
+}
+
+.highlight-name:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+	/* @apply bg-gradient-to-br from-[#14fff7] to-[#001aff]; */
+	@apply bg-bright_primary;
+}
+
+.highlight-name:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
