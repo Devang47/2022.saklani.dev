@@ -6,7 +6,7 @@
 	import Twitter from '$lib/icons/Twitter.svelte';
 </script>
 
-<section class="contact-wrapper">
+<section class="contact-wrapper" id="contact">
 	<div class="content">
 		<div class="get-in-touch">
 			<h2>Get in touch</h2>
@@ -19,7 +19,7 @@
 
 		<div class="contact-links">
 			<Button variant="filled">My Resume</Button>
-			<div class="flex items-center justify-around gap-2 mt-5 w-full">
+			<div class="flex items-center justify-around gap-4 mt-4 w-full">
 				<Button variant="outlined" padding="square">
 					<Gmail class="block fill-bright_secondary w-[20px] h-[20px]" />
 				</Button>
@@ -39,28 +39,32 @@
 
 <style lang="postcss">
 	.contact-wrapper {
-		@apply min-h-screen lg:min-h-[82vh] flex items-center justify-start;
-		@apply relative overflow-hidden md:pt-8 md:pb-8;
+		@apply min-h-screen md:min-h-fit md:py-40 lg:min-h-[82vh] flex items-center justify-start;
+		@apply relative overflow-hidden;
 	}
 
 	.content {
-		@apply md:flex justify-between items-start gap-6;
-		@apply my-4 mx-4 sm:mx-auto md:w-10/12 lg:w-[80%] lg:max-w-6xl;
+		@apply lg:flex justify-between items-start gap-8;
+		@apply w-[90%] mx-auto md:w-10/12 lg:w-[80%] lg:max-w-6xl;
 		@apply relative z-10;
 	}
 
 	.get-in-touch {
-		@apply text-[18px] md:text-[22px] text-left w-11/12 sm:w-10/12 pb-3;
+		@apply w-11/12 sm:w-10/12 pb-3;
 		@apply sm:max-w-lg md:max-w-[37rem] md:w-full text-bright_secondary;
 		@apply md:leading-[38px];
 	}
 
 	.contact-links {
 		@apply flex items-start justify-start flex-col;
-		@apply mt-4 w-full max-w-[250px] md:w-[300px] md:max-w-none;
+		@apply mt-8 lg:mt-4 w-full md:w-[350px] md:max-w-none;
 	}
 
 	h2 {
-		@apply text-bright_primary font-bold text-[34px] mb-4;
+		@apply text-bright_primary font-bold text-[32px] mb-4;
+	}
+
+	h3 {
+		@apply text-[#B2B2B2] text-[20px] leading-8;
 	}
 </style>

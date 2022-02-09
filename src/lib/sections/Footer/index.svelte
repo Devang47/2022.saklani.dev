@@ -7,7 +7,7 @@
 	<div class="footer-content">Designed & Built by Devang Saklani</div>
 	<div class="footer-links">
 		<a href="http://" target="_blank" rel="noopener noreferrer">
-			<Github />
+			<Github class="block fill-bright_secondary w-[22px] h-[22px]" />
 		</a>
 		<a href="http://" target="_blank" rel="noopener noreferrer">
 			<Star />

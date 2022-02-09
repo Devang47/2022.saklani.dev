@@ -1,10 +1,12 @@
 <script lang="ts">
+	import { fly } from 'svelte/transition';
+
 	import Button from '$components/Button/index.svelte';
 	import FlowFields from '$sections/FlowFields/index.svelte';
 </script>
 
 <header class="introduction-section-wrapper">
-	<div class="intro-content">
+	<div class="intro-content" in:fly={{ y: 20, duration: 600 }}>
 		<h1 class="my-short-intro">
 			Hello! I’m <span class="highlight-name"> Devang Saklani </span>
 			— curious developer based in Uttarakhand, India 🇮🇳. Interested in meditation, websites, science
@@ -12,37 +14,42 @@
 			we're building apps that makes the web convenient.
 		</h1>
 		<div class="introduction-links">
-			<Button variant="filled">About me</Button>
-			<Button variant="outlined" class="mt-5">Contact me</Button>
+			<a href="/about" class="w-full">
+				<Button variant="filled">About me</Button>
+			</a>
+			<a href="#contact" class="w-full">
+				<Button variant="outlined" class="mt-6">Contact</Button>
+			</a>
 		</div>
 	</div>
 
-	<div class="generative-illustration">
+	<div class="generative-illustration" in:fly={{ y: 20, duration: 600 }}>
 		<FlowFields />
 	</div>
 </header>
 
 <style lang="postcss">
 	.introduction-section-wrapper {
-		@apply min-h-screen lg:min-h-[82vh] flex items-center justify-start;
-		@apply relative overflow-hidden md:pt-8 md:pb-8;
+		@apply min-h-screen md:min-h-fit md:py-40 lg:py-52 flex items-center justify-start;
+		@apply relative overflow-hidden;
 	}
 
 	.intro-content {
-		@apply md:flex justify-between items-start gap-6;
-		@apply my-4 mx-4 sm:mx-auto md:w-10/12 lg:w-[80%] lg:max-w-6xl;
+		@apply lg:flex justify-between items-start gap-6;
+		@apply mx-auto w-[90%] sm:w-11/12 md:w-10/12 lg:w-[80%] lg:max-w-6xl;
 		@apply relative z-10;
 	}
 
 	.my-short-intro {
-		@apply text-[22px] md:text-[24px] text-left w-11/12 sm:w-10/12 pb-3;
+		@apply text-[24px] leading-[38px] text-left w-11/12 pb-3;
+		@apply sm:w-10/12;
 		@apply sm:max-w-lg md:max-w-[37rem] md:w-full text-bright_secondary;
 		@apply md:leading-[38px];
 	}
 
 	.introduction-links {
 		@apply flex items-start justify-start flex-col;
-		@apply mt-4 w-full max-w-[250px] md:w-[300px] md:max-w-none;
+		@apply mt-12 lg:mt-0 w-full max-w-[300px] md:w-[350px] md:max-w-none;
 	}
 
 	.generative-illustration {

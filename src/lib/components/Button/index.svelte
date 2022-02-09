@@ -13,6 +13,9 @@
 		@apply text-[16px] flex items-center justify-center;
 		@apply duration-200 transition-all ease-in-out whitespace-nowrap text-center;
 		@apply leading-[24px];
+		box-shadow: 0px 2.4px 2.2px rgba(0, 0, 0, 0.07), 0px 5.8px 5.3px rgba(0, 0, 0, 0.101),
+			0px 10.9px 10px rgba(0, 0, 0, 0.125), 0px 19.4px 17.9px rgba(0, 0, 0, 0.149),
+			0px 36.3px 33.4px rgba(0, 0, 0, 0.18), 0px 87px 80px rgba(0, 0, 0, 0.25);
 	}
 
 	.rectangle {
@@ -24,10 +27,10 @@
 	}
 
 	.filled {
-		@apply bg-dark_secondary hover:bg-[#1B1B1B];
+		@apply bg-dark_button hover:bg-dark_secondary;
 	}
 
 	.outlined {
-		@apply bg-dark_primary border border-[#272727] hover:bg-[#121212];
+		@apply bg-dark_primary border border-[#161616] hover:border-[#272727];
 	}
 </style>
