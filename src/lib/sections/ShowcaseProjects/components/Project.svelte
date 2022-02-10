@@ -5,7 +5,6 @@
 	export let title: string;
 	export let desc: string;
 	export let link: string;
-	export let images: string[];
 </script>
 
 <a href={link} target="_blank" rel="noopener noreferrer" class="w-full">
