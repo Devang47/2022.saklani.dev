@@ -5,7 +5,7 @@
 <Container color="purple">
 	<div class="wrapper">
 		<div class="lg:w-full">
-			<div class="date">2020 - Current</div>
+			<div class="date">2020</div>
 			<div class="title ">Impulse | Messaging service</div>
 		</div>
 		<div class="detail">
@@ -13,11 +13,15 @@
 			Encrypted and Secure way! It uses AES and SHA-256 encryption to securely send and store your
 			messages.
 			<br /> Tools used: React, Nextjs, Firestore, Sass.
+			<br /> Live project:
+			<a href="http://" target="_blank" class="link" rel="noopener noreferrer">here</a>.
 		</div>
 	</div>
 	<div class="showcase-images">
-		<img src="/images/impulse-mobile.png" alt="" />
-		<img src="/images/impulse.png" alt="" />
+		<div class="w-fit h-full flex items-center justify-start gap-10">
+			<img src="/images/impulse-mobile.png" alt="" />
+			<img src="/images/impulse.png" alt="" />
+		</div>
 	</div>
 </Container>
 
@@ -26,14 +30,22 @@
 <Container color={'red'}>
 	<div class="wrapper">
 		<div class="lg:w-full">
-			<div class="date">2020 - Current</div>
-			<div class="title highlight-name">IDS Company</div>
+			<div class="date">2020</div>
+			<div class="title">Portfolio with Three.js</div>
 		</div>
 		<div class="detail">
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam similique earum ut dicta sunt
-			praesentium tenetur aspernatur impedit ducimus. Enim aliquid hic esse, adipisci reiciendis
-			beatae molestiae ex vero, aspernatur laborum consectetur magni earum eligendi quidem in
-			officia minus.
+			This is a template portfolio website built using Threejs, inspired from ilithya. In this
+			project I worked with TextGeometry and Points in Three.js and optimized the website using the
+			best practices.
+			<br /> Tools used: Webpack, Threejs, Dat.gui, Sass.
+			<br /> Live project:
+			<a href="http://" target="_blank" class="link" rel="noopener noreferrer">here</a>.
+		</div>
+	</div>
+	<div class="showcase-images">
+		<div class="w-fit h-full flex items-center justify-start gap-10">
+			<img src="/images/threejs-portfolio-mobile.png" alt="" />
+			<img src="/images/threejs-portfolio.png" alt="" />
 		</div>
 	</div>
 </Container>
@@ -57,11 +69,14 @@
 	}
 
 	img {
-		@apply h-full rounded-lg;
+		@apply block h-full w-auto rounded-lg object-contain max-w-none;
 	}
 
 	.showcase-images {
 		@apply overflow-scroll mt-12 w-full h-[40rem] py-5 px-4;
-		@apply flex items-center justify-start gap-10;
+	}
+
+	.link {
+		@apply underline hover:text-[#00ffaa] duration-100 transition-all ease-linear;
 	}
 </style>
