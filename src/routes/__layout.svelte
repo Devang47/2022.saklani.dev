@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script lang="ts">
 	import '$styles/tailwind.css';
 	import '$styles/custom.css';
 
