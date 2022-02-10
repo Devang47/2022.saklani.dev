@@ -5,9 +5,17 @@
 	export let title: string;
 	export let desc: string;
 	export let link: string;
+	export let select: () => null;
 </script>
 
-<a href={link} target="_blank" rel="noopener noreferrer" class="w-full">
+<a
+	href={link}
+	target="_blank"
+	rel="noopener noreferrer"
+	class="w-full"
+	on:mouseover={select}
+	on:focus={select}
+>
 	<div
 		class="project-item group"
 		on:mouseleave={() => (isMouseOver = false)}

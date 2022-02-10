@@ -1,5 +1,11 @@
 <script lang="ts">
 	import Project from './components/Project.svelte';
+
+	let selectedProject: number = 0;
+	const showProject = (id: number) => {
+		selectedProject = id;
+		return null;
+	};
 </script>
 
 <section class="showcase-projects">
@@ -12,23 +18,21 @@
 					title="Placeholderr | JSON Rest-API"
 					desc="It is a JSON placeholder rest-api built using Node, Express and React and deployed to Heroku. It provides many useful endpoints like comments, covid data, images from NASA and images from Unsplash etc."
 					link="https://project-placeholderr.herokuapp.com/"
+					select={() => showProject(0)}
 				/>
 				<Project
-					title="Placeholderr | JSON Rest-API"
-					desc="It is a JSON placeholder rest-api built using Node, Express and React and deployed to Heroku. It provides many useful endpoints like comments, covid data, images from NASA and images from Unsplash etc."
-					link="https://project-placeholderr.herokuapp.com/"
-				/>
-				<Project
-					title="Placeholderr | JSON Rest-API"
-					desc="It is a JSON placeholder rest-api built using Node, Express and React and deployed to Heroku. It provides many useful endpoints like comments, covid data, images from NASA and images from Unsplash etc."
-					link="https://project-placeholderr.herokuapp.com/"
+					title="ERC-20 Token Generator"
+					desc="An tool which helps you to quickly create a Smart contract based on ERC-20 standard. It uses openzeppelin-contracts to create a contract and downloadjs to download the generated file."
+					link="https://token-generator.vercel.app/"
+					select={() => showProject(1)}
 				/>
 			</div>
 		</div>
 
 		<div class="right-showcase-image">
 			<img
-				src="https://images.unsplash.com/photo-1644325781920-a41ee5b914b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+				loading="lazy"
+				src={selectedProject === 0 ? "/images/project-showcase/placeholderr.png" : "/images/project-showcase/token-generator.png"}
 				alt=""
 			/>
 		</div>
