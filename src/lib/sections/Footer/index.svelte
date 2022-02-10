@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Github from '$lib/icons/github.svelte';
+	import Github from '$lib/icons/Github.svelte';
 	import Star from '$lib/icons/Star.svelte';
 </script>
 
