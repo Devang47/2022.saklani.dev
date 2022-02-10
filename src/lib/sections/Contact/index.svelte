@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Button from '$components/Button/index.svelte';
-	import Github from '$lib/icons/github.svelte';
+	import Github from '$lib/icons/Github.svelte';
 	import Gmail from '$lib/icons/Gmail.svelte';
 	import Linkedin from '$lib/icons/Linkedin.svelte';
 	import Twitter from '$lib/icons/Twitter.svelte';

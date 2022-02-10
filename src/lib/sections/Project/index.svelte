@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Container from '$components/Container/index.svelte';
-	import Github from '$lib/icons/github.svelte';
+	import Github from '$lib/icons/Github.svelte';
 	import Link from '$lib/icons/Link.svelte';
 </script>
 
