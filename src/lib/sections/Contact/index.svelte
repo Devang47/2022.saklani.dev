@@ -20,18 +20,26 @@
 		<div class="contact-links">
 			<Button variant="filled">My Resume</Button>
 			<div class="flex items-center justify-around gap-4 mt-4 w-full">
-				<Button variant="outlined" padding="square">
-					<Gmail class="block fill-bright_secondary w-[20px] h-[20px]" />
-				</Button>
-				<Button variant="outlined" padding="square">
-					<Linkedin class="block fill-bright_secondary w-[20px] h-[20px]" />
-				</Button>
-				<Button variant="outlined" padding="square">
-					<Twitter class="block fill-bright_secondary w-[20px] h-[20px]" />
-				</Button>
-				<Button variant="outlined" padding="square">
-					<Github class="block fill-bright_secondary w-[20px] h-[20px]" />
-				</Button>
+				<a href="mailto:devangsaklani@gmail.com"
+					><Button variant="outlined" padding="square">
+						<Gmail class="block fill-bright_secondary w-[20px] h-[20px]" />
+					</Button></a
+				>
+				<a href="https://www.linkedin.com/in/devangsaklani/"
+					><Button variant="outlined" padding="square">
+						<Linkedin class="block fill-bright_secondary w-[20px] h-[20px]" />
+					</Button></a
+				>
+				<a href="https://twitter.com/DevangSaklani"
+					><Button variant="outlined" padding="square">
+						<Twitter class="block fill-bright_secondary w-[20px] h-[20px]" />
+					</Button></a
+				>
+				<a href="https://github.com/Devang47"
+					><Button variant="outlined" padding="square">
+						<Github class="block fill-bright_secondary w-[20px] h-[20px]" />
+					</Button></a
+				>
 			</div>
 		</div>
 	</div>

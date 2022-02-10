@@ -14,14 +14,9 @@
 					link="https://project-placeholderr.herokuapp.com/"
 				/>
 				<Project
-					title="Placeholderr | JSON Rest-API"
-					desc="It is a JSON placeholder rest-api built using Node, Express and React and deployed to Heroku. It provides many useful endpoints like comments, covid data, images from NASA and images from Unsplash etc."
-					link="https://project-placeholderr.herokuapp.com/"
-				/>
-				<Project
-					title="Placeholderr | JSON Rest-API"
-					desc="It is a JSON placeholder rest-api built using Node, Express and React and deployed to Heroku. It provides many useful endpoints like comments, covid data, images from NASA and images from Unsplash etc."
-					link="https://project-placeholderr.herokuapp.com/"
+					title="ERC-20 Token Generator"
+					desc="An tool which helps you to quickly create a Smart contract based on ERC-20 standard. It uses openzeppelin-contracts to create a contract and downloadjs to download the generated file."
+					link="https://token-generator.vercel.app/"
 				/>
 			</div>
 		</div>

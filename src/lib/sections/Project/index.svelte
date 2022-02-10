@@ -17,10 +17,20 @@
 			<br /> Tools used: React, Nextjs, Firestore, Sass.
 			<br />
 			<div class="flex items-center justify-start gap-4 my-3 h-[22px]">
-				<a href="#!" target="_blank" class="link h-full" rel="noopener noreferrer">
+				<a
+					href="https://github.com/Devang47/Impulse"
+					target="_blank"
+					class="link h-full"
+					rel="noopener noreferrer"
+				>
 					<Github class="h-full fill-white hover:fill-green_tint" />
 				</a>
-				<a href="#!" target="_blank" class="link h-full" rel="noopener noreferrer">
+				<a
+					href="https://impulse.pages.dev/"
+					target="_blank"
+					class="link h-full"
+					rel="noopener noreferrer"
+				>
 					<Link class="h-full text-white hover:text-green_tint" />
 				</a>
 			</div>
@@ -49,10 +59,20 @@
 			<br /> Tools used: Webpack, Threejs, Dat.gui, Sass.
 			<br />
 			<div class="flex items-center justify-start gap-4 my-3 h-[22px]">
-				<a href="#!" target="_blank" class="link h-full" rel="noopener noreferrer">
+				<a
+					href="https://github.com/Devang47/ThreeJS-Portfolio-template"
+					target="_blank"
+					class="link h-full"
+					rel="noopener noreferrer"
+				>
 					<Github class="h-full fill-white hover:fill-green_tint" />
 				</a>
-				<a href="#!" target="_blank" class="link h-full" rel="noopener noreferrer">
+				<a
+					href="https://threejs-portfolio-website.netlify.app/"
+					target="_blank"
+					class="link h-full"
+					rel="noopener noreferrer"
+				>
 					<Link class="h-full text-white hover:text-green_tint" />
 				</a>
 			</div>
