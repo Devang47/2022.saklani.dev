@@ -38,8 +38,8 @@
 	</div>
 	<div class="showcase-images">
 		<div class="w-fit h-full flex items-center justify-start gap-10">
-			<img src="/images/project-showcase/impulse-mobile.png" alt="" />
-			<img src="/images/project-showcase/impulse.png" alt="" />
+			<img loading="lazy" src="/images/project-showcase/impulse-mobile.png" alt="" />
+			<img loading="lazy" src="/images/project-showcase/impulse.png" alt="" />
 		</div>
 	</div>
 </Container>
@@ -80,8 +80,8 @@
 	</div>
 	<div class="showcase-images">
 		<div class="w-fit h-full flex items-center justify-start gap-10">
-			<img src="/images/project-showcase/threejs-portfolio-mobile.png" alt="" />
-			<img src="/images/project-showcase/threejs-portfolio.png" alt="" />
+			<img loading="lazy" src="/images/project-showcase/threejs-portfolio-mobile.png" alt="" />
+			<img loading="lazy" src="/images/project-showcase/threejs-portfolio.png" alt="" />
 		</div>
 	</div>
 </Container>
