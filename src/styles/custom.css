@@ -38,3 +38,22 @@ canvas {
 	transform: scaleX(1);
 	transform-origin: bottom left;
 }
+
+.link {
+	@apply text-green_tint;
+}
+
+.link::after {
+	@apply bg-green_tint;
+}
+
+::-moz-selection {
+	/* Code for Firefox */
+	color: rgb(231 231 233 / 1);
+	background: rgb(231 231 233 / 0.2);
+}
+
+::selection {
+	color: rgb(231 231 233 / 1);
+	background: rgb(231 231 233 / 0.2);
+}
