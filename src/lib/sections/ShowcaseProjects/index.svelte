@@ -12,19 +12,16 @@
 					title="Placeholderr | JSON Rest-API"
 					desc="It is a JSON placeholder rest-api built using Node, Express and React and deployed to Heroku. It provides many useful endpoints like comments, covid data, images from NASA and images from Unsplash etc."
 					link="https://project-placeholderr.herokuapp.com/"
-					images={['/images']}
 				/>
 				<Project
 					title="Placeholderr | JSON Rest-API"
 					desc="It is a JSON placeholder rest-api built using Node, Express and React and deployed to Heroku. It provides many useful endpoints like comments, covid data, images from NASA and images from Unsplash etc."
 					link="https://project-placeholderr.herokuapp.com/"
-					images={[]}
 				/>
 				<Project
 					title="Placeholderr | JSON Rest-API"
 					desc="It is a JSON placeholder rest-api built using Node, Express and React and deployed to Heroku. It provides many useful endpoints like comments, covid data, images from NASA and images from Unsplash etc."
 					link="https://project-placeholderr.herokuapp.com/"
-					images={[]}
 				/>
 			</div>
 		</div>
