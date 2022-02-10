@@ -2,7 +2,7 @@
 	"name": "project-identity",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte-kit dev",
+		"dev": "svelte-kit dev --host",
 		"build": "svelte-kit build",
 		"preview": "svelte-kit preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
@@ -22,6 +22,7 @@
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.4.0",
 		"husky": "^7.0.4",
+		"p5": "^1.4.0",
 		"postcss": "^8.4.5",
 		"postcss-import": "^14.0.2",
 		"postcss-nesting": "^10.1.2",
@@ -36,5 +37,9 @@
 		"tslib": "^2.3.1",
 		"typescript": "^4.5.4"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/adapter-static": "1.0.0-next.26",
+		"p5-svelte": "^3.0.1"
+	}
 }

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	background-color: #040407;
+	width: 100%;
+}
+
+canvas {
+	margin: 0 auto;
+	position: relative;
+	z-index: -10;
+}
+
+.highlight-name {
+	@apply relative inline-block;
+}
+
+.highlight-name:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+	/* @apply bg-gradient-to-br from-[#14fff7] to-[#001aff]; */
+	@apply bg-bright_primary;
+}
+
+.highlight-name:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+.link {
+	@apply text-green_tint;
+}
+
+.link::after {
+	@apply bg-green_tint;
+}
+
+::-moz-selection {
+	/* Code for Firefox */
+	color: rgb(231 231 233 / 1);
+	background: rgb(231 231 233 / 0.2);
+}
+
+::selection {
+	color: rgb(231 231 233 / 1);
+	background: rgb(231 231 233 / 0.2);
+}
