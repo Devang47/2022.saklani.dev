@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script lang="ts">
 	import P5 from 'p5-svelte';
 
 	var particles = [];
@@ -83,7 +83,7 @@
 				else return false;
 			}
 		}
-	};
+	}
 </script>
 
 <P5 {sketch} />
