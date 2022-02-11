@@ -4,6 +4,5 @@ node_modules
 /.svelte-kit
 /package
 .vscode/
-pnpm-lock.yaml
 .pnpm-debug.log
 
