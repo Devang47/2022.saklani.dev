@@ -32,7 +32,9 @@
 		<div class="right-showcase-image">
 			<img
 				loading="lazy"
-				src={selectedProject === 0 ? "/images/project-showcase/placeholderr.png" : "/images/project-showcase/token-generator.png"}
+				src={selectedProject === 0
+					? '/images/project-showcase/placeholderr.webp'
+					: '/images/project-showcase/token-generator.webp'}
 				alt=""
 			/>
 		</div>
