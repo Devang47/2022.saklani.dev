@@ -41,7 +41,7 @@
 
 <style lang="postcss">
 	.showcase-projects {
-		@apply lg:min-h-[82vh] flex items-center justify-start;
+		@apply flex items-center justify-start;
 		@apply relative overflow-hidden md:pt-8 md:pb-8;
 		@apply mt-32;
 	}

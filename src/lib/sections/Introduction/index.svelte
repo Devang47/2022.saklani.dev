@@ -30,14 +30,14 @@
 
 <style lang="postcss">
 	.introduction-section-wrapper {
-		@apply min-h-screen md:min-h-fit md:py-40 lg:py-52 flex items-center justify-start;
+		@apply min-h-screen md:min-h-fit md:py-40 lg:py-52 flex justify-start;
 		@apply relative overflow-hidden;
 	}
 
 	.intro-content {
 		@apply lg:flex justify-between items-start gap-6;
 		@apply mx-auto w-[90%] sm:w-11/12 md:w-10/12 lg:w-[80%] lg:max-w-6xl;
-		@apply relative z-10;
+		@apply relative z-10 pt-32 pb-20 md:pb-0 md:pt-0;
 	}
 
 	.my-short-intro {

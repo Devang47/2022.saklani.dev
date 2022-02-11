@@ -47,7 +47,7 @@
 
 <style lang="postcss">
 	.contact-wrapper {
-		@apply min-h-screen md:min-h-fit md:py-40 lg:min-h-[82vh] flex items-center justify-start;
+		@apply min-h-screen md:min-h-fit md:py-40 lg:py-56 flex items-center justify-start;
 		@apply relative overflow-hidden;
 	}
 
