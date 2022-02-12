@@ -7,10 +7,10 @@
 	<div class="footer-content">Designed & Built by Devang Saklani</div>
 	<div class="footer-links">
 		<a href="https://github.com/Devang47/portfolio-2022" target="_blank" rel="noopener noreferrer">
-			<Github class="block fill-bright_secondary w-[22px] h-[22px]" />
+			<Github class="block fill-bright_secondary w-[18px] h-[18px]" />
 		</a>
 		<a href="https://github.com/Devang47/portfolio-2022" target="_blank" rel="noopener noreferrer">
-			<Star />
+			<Star class="block fill-bright_secondary w-[28px] h-[28px]" />
 		</a>
 	</div>
 </footer>
@@ -22,7 +22,7 @@
 
 	.footer-content {
 		@apply text-center text-bright_secondary;
-		@apply font-bold text-lg mb-1;
+		@apply font-semibold text-sm mb-1;
 	}
 
 	.footer-links {
