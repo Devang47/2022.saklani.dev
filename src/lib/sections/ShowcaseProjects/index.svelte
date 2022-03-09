@@ -22,7 +22,7 @@
 			<div class="projects-list ">
 				<Project
 					title="Custom URL Shortener"
-					desc="It is a URL Shortener built using Svelte, and Firestore and deployed to Cloudflare. "
+					desc="It is a custom URL Shortener built using Svelte, Tailwind, Node + Express, MongoDB and deployed to Vercel & Heroku."
 					link="https://tiny.saklani.dev/"
 					select={() => showProject(0)}
 				/>
