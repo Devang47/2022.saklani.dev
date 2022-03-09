@@ -3,9 +3,7 @@
 
 	let points = [];
 	let mult = 0.05;
-
-	const Y_AXIS = 1;
-
+	
 	let r1, r2, g1, g2, b1, b2;
 
 	const sketch = (p5) => {

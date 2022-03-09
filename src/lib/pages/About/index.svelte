@@ -4,7 +4,7 @@
 </script>
 
 <section class="about-section-wrapper" in:fly={{ y: 20, duration: 600 }}>
-	<div class="intro-content">
+	<div class="intro-content text-bright_secondary">
 		<span>
 			<p>
 				Hello! My name is Devang and I enjoy creating things that live on the internet. I am a
