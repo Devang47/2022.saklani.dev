@@ -18,7 +18,14 @@
 		</div>
 
 		<div class="contact-links">
-			<Button variant="filled">My Resume</Button>
+			<a
+				href="https://saklani.dev/resume.pdf"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="w-full"
+			>
+				<Button variant="filled">My Resume</Button>
+			</a>
 			<div class="flex items-center justify-around gap-4 mt-4 w-full">
 				<a href="mailto:devangsaklani@gmail.com"
 					><Button variant="outlined" padding="square">
