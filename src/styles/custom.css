@@ -38,11 +38,28 @@ canvas {
 }
 
 .link {
-	@apply text-green_tint;
+	@apply text-transparent bg-clip-text;
+	background-image: linear-gradient(
+		45deg,
+		hsl(199deg 100% 57%) 0%,
+		hsl(196deg 100% 58%) 20%,
+		hsl(193deg 100% 58%) 40%,
+		hsl(190deg 100% 58%) 60%,
+		hsl(186deg 100% 57%) 80%,
+		hsl(183deg 100% 55%) 100%
+	);
 }
 
 .link::after {
-	@apply bg-green_tint;
+	background-image: linear-gradient(
+		45deg,
+		hsl(199deg 100% 57%) 0%,
+		hsl(196deg 100% 58%) 20%,
+		hsl(193deg 100% 58%) 40%,
+		hsl(190deg 100% 58%) 60%,
+		hsl(186deg 100% 57%) 80%,
+		hsl(183deg 100% 55%) 100%
+	);
 }
 
 ::-moz-selection {

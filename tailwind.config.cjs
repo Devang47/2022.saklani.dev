@@ -10,9 +10,9 @@ module.exports = {
 			dark_button: '#0D0D0F',
 			bright_primary: '#E7E7E9',
 			bright_secondary: '#D0D0D0',
-			purple_tint: '#6A52FF',
-			red_tint: '#9D2B34',
-			green_tint: '#0ce877'
+			purple_tint: '#4158D6',
+			blue_tint: '#0053B1',
+			teal_tint: '#1AF4FF'
 		}
 	},
 	variants: {

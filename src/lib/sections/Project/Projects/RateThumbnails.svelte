@@ -4,7 +4,7 @@
 	import Link from '$lib/icons/Link.svelte';
 </script>
 
-<Container color="purple">
+<Container color="red">
 	<div class="wrapper">
 		<div class="lg:w-full">
 			<div class="date">2022</div>
@@ -23,7 +23,7 @@
 					class="link h-full"
 					rel="noopener noreferrer"
 				>
-					<Github class="h-full fill-white hover:fill-green_tint" />
+					<Github class="h-full fill-white hover:fill-teal_tint" />
 				</a>
 				<a
 					href="https://rate-thumbnails.saklani.dev/"
@@ -31,7 +31,7 @@
 					class="link h-full"
 					rel="noopener noreferrer"
 				>
-					<Link class="h-full text-white hover:text-green_tint" />
+					<Link class="h-full text-white hover:text-teal_tint" />
 				</a>
 			</div>
 		</div>

@@ -9,7 +9,7 @@
 		{#if color === 'purple'}
 			<svg class="blob-1 purple" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 				<path
-					fill="#6A52FF"
+					fill="#4158D6"
 					d="M55.8,-59.6C68.6,-43,72.7,-21.5,73.7,0.9C74.6,23.4,72.4,46.8,59.6,60.5C46.8,74.2,23.4,78.2,5.5,72.7C-12.5,67.3,-25,52.4,-37.6,38.7C-50.2,25,-62.9,12.5,-65.1,-2.2C-67.3,-16.9,-59,-33.8,-46.4,-50.4C-33.8,-67.1,-16.9,-83.4,2.3,-85.7C21.5,-88,43,-76.3,55.8,-59.6Z"
 					transform="translate(100 100)"
 				/>
@@ -17,7 +17,7 @@
 		{:else if color === 'red'}
 			<svg class="blob-1 red" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 				<path
-					fill="#FF0066"
+					fill="#0053B1"
 					d="M63.6,-52.4C75.7,-35.6,74.1,-9.5,66.6,11.8C59,33.1,45.4,49.7,27.1,59.9C8.8,70.1,-14.4,74,-30.5,65.4C-46.7,56.8,-56,35.9,-61.4,13.6C-66.8,-8.7,-68.4,-32.3,-57.5,-48.7C-46.7,-65.2,-23.3,-74.6,1.2,-75.6C25.8,-76.5,51.6,-69.1,63.6,-52.4Z"
 					transform="translate(100 100)"
 				/>
@@ -31,7 +31,7 @@
 
 <style lang="postcss">
 	section {
-		@apply bg-dark_secondary rounded-lg text-bright_secondary;
+		@apply bg-[#0d0d0f] rounded-lg text-bright_secondary;
 		@apply w-full sm:w-11/12 md:w-10/12 lg:w-[80%] lg:max-w-6xl mx-auto;
 		@apply py-14 px-6 md:px-12 md:py-16 lg:px-16;
 		@apply bg-opacity-90 backdrop-blur-[2px] overflow-hidden;
@@ -46,14 +46,6 @@
 		animation: move 20s ease-in-out alternate-reverse infinite;
 		height: 600px;
 		width: 600px;
-	}
-
-	.purple path {
-		@apply fill-purple_tint;
-	}
-
-	.red path {
-		@apply fill-red_tint;
 	}
 
 	@keyframes move {
