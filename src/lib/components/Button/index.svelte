@@ -31,6 +31,6 @@
 	}
 
 	.outlined {
-		@apply bg-dark_primary border border-[#161616] hover:border-[#272727];
+		@apply bg-dark_primary border border-[#1a1a1a] hover:border-[#272727];
 	}
 </style>

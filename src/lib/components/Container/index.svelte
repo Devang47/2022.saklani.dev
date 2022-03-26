@@ -31,7 +31,7 @@
 
 <style lang="postcss">
 	section {
-		@apply bg-[#0d0d0f] rounded-lg text-bright_secondary;
+		@apply bg-dark_button rounded-lg text-bright_secondary;
 		@apply w-full sm:w-11/12 md:w-10/12 lg:w-[80%] lg:max-w-6xl mx-auto;
 		@apply py-14 px-6 md:px-12 md:py-16 lg:px-16;
 		@apply bg-opacity-90 backdrop-blur-[2px] overflow-hidden;
