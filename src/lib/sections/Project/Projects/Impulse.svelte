@@ -13,7 +13,7 @@
 		<div class="detail">
 			An app that helps you to send messages, links, documents to all of your devices in an
 			Encrypted and Secure way! It uses AES and SHA-256 encryption to securely send and store your
-			messages.
+			messages. Basically works like Airdrop and works on every device.
 			<br /> Tools used: React, Nextjs, Firestore, Sass.
 			<br />
 			<div class="flex items-center justify-start gap-4 my-3 mt-4 h-[22px]">

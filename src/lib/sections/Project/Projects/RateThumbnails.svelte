@@ -8,7 +8,7 @@
 	<div class="wrapper">
 		<div class="lg:w-full">
 			<div class="date">2022</div>
-			<div class="title ">Rate thumbnials</div>
+			<div class="title ">Rate thumbnails</div>
 		</div>
 		<div class="detail">
 			In this app you can add, select or judge thumbnails according your liking. Add a thumbnail,

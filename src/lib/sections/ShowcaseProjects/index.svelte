@@ -51,6 +51,7 @@
 	.showcase-projects {
 		@apply flex items-center justify-start;
 		@apply relative overflow-hidden md:pt-8 md:pb-8;
+		@apply xl:min-h-[70vh];
 		@apply mt-32;
 	}
 
