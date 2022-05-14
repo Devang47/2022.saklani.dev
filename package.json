@@ -41,6 +41,7 @@
 	"dependencies": {
 		"@macfja/svelte-p5": "^1.1.3",
 		"@sveltejs/adapter-static": "1.0.0-next.26",
+		"motion": "^10.8.1",
 		"p5-svelte": "^3.0.2"
 	},
 	"main": "svelte.config.js",
