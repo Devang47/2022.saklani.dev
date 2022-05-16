@@ -69,16 +69,12 @@
 			</a>
 		</div>
 	</div>
-
-	<!-- <div class="generative-illustration" in:fly={{ y: 20, duration: 600 }}> -->
-	<!-- <FlowFields /> -->
-	<!-- </div> -->
 </header>
 
 <style lang="postcss">
 	.introduction-section-wrapper {
 		@apply min-h-screen md:min-h-fit md:py-40 lg:py-52 flex justify-start;
-		@apply xl:min-h-[70vh] flex items-center justify-center;
+		@apply xl:min-h-[90vh] flex items-center justify-center;
 		@apply relative overflow-hidden;
 	}
 
