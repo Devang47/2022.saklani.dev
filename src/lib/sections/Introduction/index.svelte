@@ -1,10 +1,6 @@
 <script lang="ts">
-	import { fly } from 'svelte/transition';
-
 	import Button from '$components/Button/index.svelte';
-	import FlowFields from '$sections/FlowFields/index.svelte';
-
-	import { animate, timeline } from 'motion';
+	import { animate } from 'motion';
 	import { onMount } from 'svelte';
 
 	let paragraphText;
@@ -52,7 +48,7 @@
 </script>
 
 <header class="introduction-section-wrapper">
-	<div class="intro-content" in:fly={{ y: 20, duration: 600 }}>
+	<div class="intro-content">
 		<h1 class="my-short-intro">
 			<p bind:this={paragraphText}>
 				Hello! I’m <span class="highlight-name"> Devang Saklani </span>

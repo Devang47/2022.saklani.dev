@@ -3,6 +3,8 @@
 	import { animate, spring, stagger } from 'motion';
 	import Github from '$lib/icons/Github.svelte';
 	import Link from '$lib/icons/Link.svelte';
+	import { onMount } from 'svelte';
+	import { addObserver } from '$stores/cursor';
 
 	let projectsData = [
 		{
@@ -66,9 +68,14 @@
 			}
 		);
 	};
+
+	let sectionRef;
+	onMount(() => {
+		addObserver(sectionRef);
+	});
 </script>
 
-<section class="showcase-projects">
+<section class="showcase-projects" bind:this={sectionRef}>
 	<div class="content">
 		<div class="w-[90%] md:w-full mx-auto">
 			<h2>Some things I’ve worked on</h2>
@@ -109,7 +116,7 @@
 		@apply flex items-center justify-start;
 		@apply relative overflow-hidden md:pt-8 md:pb-8;
 		@apply xl:min-h-[70vh];
-		@apply mt-32;
+		@apply mt-32 opacity-0;
 	}
 
 	.content {

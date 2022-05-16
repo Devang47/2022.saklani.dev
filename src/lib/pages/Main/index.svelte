@@ -6,12 +6,12 @@
 	import ShowcaseProjects from '$sections/ShowcaseProjects/index.svelte';
 </script>
 
-<main>
+<div>
 	<Introduction />
 	<Projects />
 	<ShowcaseProjects />
 	<Contact />
-</main>
+</div>
 
 <style lang="postcss">
 </style>

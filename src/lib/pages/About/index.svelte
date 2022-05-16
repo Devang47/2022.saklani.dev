@@ -1,55 +1,134 @@
 <script>
-	import { fly } from 'svelte/transition';
 	import Close from '$lib/icons/Close.svelte';
+	import { animate } from 'motion';
+	import { onMount } from 'svelte';
+
+	const textRef = {};
+
+	onMount(async () => {
+		const textRef = [...document.getElementsByTagName('p')];
+		const loaderRef = [...document.getElementsByClassName('reveal')];
+		console.log(textRef);
+
+		await animate(
+			loaderRef,
+			{
+				width: [0, '100%'],
+				left: [0, 0]
+			},
+			{
+				duration: 0.4,
+				delay: 0.3,
+				easing: 'ease-in-out'
+			}
+		).finished;
+		await animate(
+			textRef,
+			{
+				opacity: 1
+			},
+			{
+				duration: 0
+			}
+		).finished;
+		animate(
+			loaderRef,
+			{
+				width: ['100%', 0],
+				left: '100%'
+			},
+			{
+				duration: 0.4,
+				easing: 'ease-in-out'
+			}
+		);
+	});
 </script>
 
-<section class="about-section-wrapper" in:fly={{ y: 20, duration: 600 }}>
+<section class="about-section-wrapper">
 	<div class="intro-content text-bright_secondary">
 		<span>
-			<p>
-				Hello! My name is Devang and I enjoy creating things that live on the internet. I am a
-				Self-taught Web developer, currently working at <a
-					href="https://ids.company"
-					class="link highlight-name"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					IDS Company</a
-				>. My interest in web development started back in 2017 when I first tried editing blogger
-				themes — turns out creating a custom blogger theme taught me a lot about HTML & CSS!
-			</p>
+			<div class="relative mt-7">
+				<p>
+					Hello! My name is Devang and I enjoy creating things that live on the internet. I am a
+					Self-taught Web developer, currently working at <a
+						href="https://ids.company"
+						class="link highlight-name"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						IDS Company</a
+					>. My interest in web development started back in 2017 when I first tried editing blogger
+					themes — turns out creating a custom blogger theme taught me a lot about HTML & CSS!
+				</p>
 
-			<p>
-				I also recently <a
-					href="http://"
-					class="link highlight-name"
-					target="_blank"
-					rel="noopener noreferrer">created a webapp</a
-				> that lets you send messages, links, documents to all of your devices with a encrypted and secure
-				way using Next.js & Firebase.
-			</p>
+				<div class="reveal" />
+			</div>
 
-			<p>Here are a few tools I’ve been working with recently:</p>
+			<div class="relative mt-7">
+				<p>
+					I also recently <a
+						href="http://"
+						class="link highlight-name"
+						target="_blank"
+						rel="noopener noreferrer">created a webapp</a
+					> that lets you send messages, links, documents to all of your devices with a encrypted and
+					secure way using Next.js & Firebase.
+				</p>
+				<div class="reveal" />
+			</div>
+
+			<div class="relative mt-7">
+				<p>Here are a few tools I’ve been working with recently:</p>
+				<div class="reveal" />
+			</div>
 
 			<div class="grid grid-cols-2 pb-10 md:pb-0">
 				<ul class="mt-4 flex flex-col gap-2">
-					<li>▹ TypeScript</li>
-					<li>▹ React</li>
-					<li>▹ Firebase</li>
-					<li>▹ Web3 & Etherjs</li>
+					<li class="relative w-fit">
+						<p>▹ TypeScript</p>
+						<div class="reveal" />
+					</li>
+					<li class="relative w-fit">
+						<p>▹ React</p>
+						<div class="reveal" />
+					</li>
+					<li class="relative w-fit">
+						<p>▹ Firebase</p>
+						<div class="reveal" />
+					</li>
+					<li class="relative w-fit">
+						<p>▹ React Native</p>
+						<div class="reveal" />
+					</li>
 				</ul>
 
 				<ul class="mt-4 flex flex-col gap-2">
-					<li>▹ Svelte</li>
-					<li>▹ Tailwind</li>
-					<li>▹ Node & Express</li>
-					<li>▹ MongoDB</li>
+					<li class="relative w-fit">
+						<p>▹ Svelte</p>
+						<div class="reveal" />
+					</li>
+					<li class="relative w-fit">
+						<p>▹ Tailwind</p>
+						<div class="reveal" />
+					</li>
+					<li class="relative w-fit">
+						<p>▹ Node & Express</p>
+						<div class="reveal" />
+					</li>
+					<li class="relative w-fit">
+						<p>▹ MongoDB</p>
+						<div class="reveal" />
+					</li>
 				</ul>
 			</div>
 		</span>
 
-		<div class="w-full mt-10 lg:my-10 md:max-w-md">
-			<img src="/images/png/devang.png" alt="" />
+		<div class="w-full mt-10 lg:my-10 md:max-w-md relative">
+			<p>
+				<img src="/images/png/devang.png" alt="" />
+			</p>
+			<div class="reveal" />
 		</div>
 	</div>
 </section>
@@ -78,12 +157,12 @@
 		@apply md:leading-[36px];
 	}
 
-	p {
-		@apply mt-7;
-	}
-
 	li {
 		font-family: 'Fira Code', monospace;
 		@apply text-sm md:text-base;
+	}
+
+	p {
+		opacity: 0;
 	}
 </style>

@@ -4,56 +4,19 @@
 	import Gmail from '$lib/icons/Gmail.svelte';
 	import Linkedin from '$lib/icons/Linkedin.svelte';
 	import Twitter from '$lib/icons/Twitter.svelte';
-	import { animate } from 'motion';
+	import { addObserver } from '$stores/cursor';
 	import { onMount } from 'svelte';
 
-	let headingReveal;
-	let headingText;
-
-	onMount(async () => {
-		await animate(
-			[headingReveal],
-			{
-				width: [0, '100%'],
-				left: [0, 0]
-			},
-			{
-				duration: 0.4,
-				delay: 1,
-				easing: 'ease-in-out'
-			}
-		).finished;
-		await animate(
-			[headingText],
-			{
-				opacity: 1
-			},
-			{
-				duration: 0
-			}
-		).finished;
-		animate(
-			[headingReveal],
-			{
-				width: ['100%', 0],
-				left: '100%'
-			},
-			{
-				duration: 0.4,
-				easing: 'ease-in-out'
-			}
-		);
+	let sectionRef;
+	onMount(() => {
+		addObserver(sectionRef);
 	});
 </script>
 
-<section class="contact-wrapper" id="contact">
+<section bind:this={sectionRef} class="contact-wrapper opacity-0" id="contact">
 	<div class="content">
 		<div class="get-in-touch">
-			<h2>
-				<span bind:this={headingText} class=" opacity-0"> Get in touch </span>
-
-				<div class="reveal" bind:this={headingReveal} />
-			</h2>
+			<h2>Get in touch</h2>
 			<h3>
 				I’m currently looking for new opportunities as a Web developer. So, feel free to message me,
 				my inbox is always open. Whether you just have a question or want to say hi, I’ll try my
