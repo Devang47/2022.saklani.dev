@@ -72,3 +72,16 @@ canvas {
 	color: rgb(231 231 233 / 1);
 	background: rgb(231 231 233 / 0.2);
 }
+
+.reveal {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	clippath: text;
+	pointer-events: none;
+	opacity: 1;
+	@apply bg-bright_primary;
+}
