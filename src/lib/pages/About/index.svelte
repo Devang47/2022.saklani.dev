@@ -52,12 +52,12 @@
 				<p>
 					Hello! My name is Devang and I enjoy creating things that live on the internet. I am a
 					Self-taught Web developer, currently working at <a
-						href="https://ids.company"
+						href="https://monogram.io/"
 						class="link highlight-name"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						IDS Company</a
+						Monogram</a
 					>. My interest in web development started back in 2017 when I first tried editing blogger
 					themes — turns out creating a custom blogger theme taught me a lot about HTML & CSS!
 				</p>

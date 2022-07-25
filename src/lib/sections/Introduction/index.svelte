@@ -53,8 +53,8 @@
 			<p bind:this={paragraphText}>
 				Hello! I’m <span class="highlight-name"> Devang Saklani </span>
 				— curious developer based in Uttarakhand, India 🇮🇳. Interested in meditation, websites, science
-				& developer tools, human interactions, productivity. Currently Web Developer at IDS, where we're
-				building apps that makes the web convenient.
+				& developer tools, human interactions, productivity. Currently Web Developer at Monogram, where
+				we're building custom Jamstack products for business needs.
 			</p>
 			<div class="reveal" bind:this={paragraphReveal} />
 		</h1>
