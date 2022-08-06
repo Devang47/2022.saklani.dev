@@ -31,7 +31,7 @@ npm install -g yarn
 
 echo -e "${RED} Installing ${ORANGE} Git... ${NC} \n"
 sleep 1
-sudo apt install git-all -y
+sudo apt-get install git -y
 git --version
 
 echo -e "${RED} Installing ${ORANGE} Docker... ${NC} \n"
