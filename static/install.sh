@@ -8,8 +8,8 @@ echo -e "${RED} Starting ${ORANGE}install.sh! ${NC} \n"
 
 echo -e "${RED} Updating... ${NC} \n"
 sleep 1
-sudo apt update
-sudo apt upgrade
+sudo apt-get update
+sudo apt-get upgrade
 
 sudo apt-get install figlet
 figlet -c "saklani.dev"
