@@ -1,6 +1,4 @@
 COLOR='\033[1;33m'
-echo -e "${COLOR}love Stack Overflow"
-
 echo -e "${COLOR} Starting install.sh!"
 
 echo -e "${COLOR} Updating..."
