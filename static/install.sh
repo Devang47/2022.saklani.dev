@@ -36,21 +36,21 @@ git --version
 
 echo -e "${RED} Installing ${ORANGE} Docker... ${NC} \n"
 sleep 1
-sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt-get update
-sudo apt-get install docker-ce
+sudo apt-get install docker-ce -y
 sudo docker run hello-world
 docker --version
 
 echo -e "${RED} Installing ${ORANGE} nginx... ${NC} \n"
 sleep 1
-sudo apt-get install nginx
+sudo apt-get install nginx -y
 
 echo -e "${RED} Installing ${ORANGE} Go... ${NC} \n"
 sleep 1
-sudo apt install golang-go 
+sudo apt install golang-go -y
 
 echo -e "${ORANGE} Done!! ${NC} \n"
 sleep 1
