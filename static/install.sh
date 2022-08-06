@@ -1,32 +1,40 @@
-COLOR='\033[1;33m'
-echo -e "${COLOR} Starting install.sh!"
+#!/bin/bash
 
-echo -e "${COLOR} Updating..."
+RED='\033[0;31m'
+ORANGE='\033[1;33m'
+NC='\033[0m' # No RED
+
+sudo apt install figlet
+figlet -c "saklani.dev"
+
+echo -e "${RED} Starting ${ORANGE}install.sh! ${NC} \n"
+
+echo -e "${RED} Updating... ${NC} \n"
 sleep 1
 sudo apt update
 sudo apt upgrade
 
-echo -e "${COLOR} Installing NVM..."
+echo -e "${RED} Installing NVM... ${NC} \n"
 sleep 1
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-echo -e "${COLOR} Installing Node..."
+echo -e "${RED} Installing Node... ${NC} \n"
 sleep 1
 nvm install node
 
-echo -e "${COLOR} Installing Yarn..."
+echo -e "${RED} Installing Yarn... ${NC} \n"
 sleep 1
 npm install -g yarn
 
-echo -e "${COLOR} Installing Git..."
+echo -e "${RED} Installing Git... ${NC} \n"
 sleep 1
 sudo apt install git-all
 git --version
 
-echo -e "${COLOR} Installing Docker..."
+echo -e "${RED} Installing Docker... ${NC} \n"
 sleep 1
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -36,13 +44,13 @@ sudo apt-get install docker-ce
 sudo docker run hello-world
 docker --version
 
-echo -e "${COLOR} Installing nginx..."
+echo -e "${RED} Installing nginx... ${NC} \n"
 sleep 1
 sudo apt-get install nginx
 
-echo -e "${COLOR} Installing Go..."
+echo -e "${RED} Installing Go... ${NC} \n"
 sleep 1
 sudo apt install golang-go 
 
-echo -e "${COLOR} Done!!"
+echo -e "${RED} Done!! ${NC} \n"
 sleep 1
