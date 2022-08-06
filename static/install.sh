@@ -14,27 +14,27 @@ sleep 1
 sudo apt update
 sudo apt upgrade
 
-echo -e "${RED} Installing NVM... ${NC} \n"
+echo -e "${RED} Installing ${ORANGE} NVM... ${NC} \n"
 sleep 1
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-echo -e "${RED} Installing Node... ${NC} \n"
+echo -e "${RED} Installing ${ORANGE} Node... ${NC} \n"
 sleep 1
 nvm install node
 
-echo -e "${RED} Installing Yarn... ${NC} \n"
+echo -e "${RED} Installing ${ORANGE} Yarn... ${NC} \n"
 sleep 1
 npm install -g yarn
 
-echo -e "${RED} Installing Git... ${NC} \n"
+echo -e "${RED} Installing ${ORANGE} Git... ${NC} \n"
 sleep 1
-sudo apt install git-all
+sudo apt install git-all -y
 git --version
 
-echo -e "${RED} Installing Docker... ${NC} \n"
+echo -e "${RED} Installing ${ORANGE} Docker... ${NC} \n"
 sleep 1
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -44,13 +44,13 @@ sudo apt-get install docker-ce
 sudo docker run hello-world
 docker --version
 
-echo -e "${RED} Installing nginx... ${NC} \n"
+echo -e "${RED} Installing ${ORANGE} nginx... ${NC} \n"
 sleep 1
 sudo apt-get install nginx
 
-echo -e "${RED} Installing Go... ${NC} \n"
+echo -e "${RED} Installing ${ORANGE} Go... ${NC} \n"
 sleep 1
 sudo apt install golang-go 
 
-echo -e "${RED} Done!! ${NC} \n"
+echo -e "${ORANGE} Done!! ${NC} \n"
 sleep 1
