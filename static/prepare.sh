@@ -4,7 +4,7 @@ RED='\033[0;31m'
 ORANGE='\033[1;33m'
 NC='\033[0m' # No RED
 
-echo -e "${RED} Starting ${ORANGE}install.sh! ${NC} \n"
+echo -e "${RED} Starting ${ORANGE}prepare.sh! ${NC} \n"
 
 echo -e "${RED} Updating... ${NC} \n"
 sleep 2
@@ -40,5 +40,5 @@ sleep 2
 sudo apt install golang-go -y
 
 echo -e "\n ${ORANGE} Done!! ${NC}"
-echo -e "${RED} Packages Installed: ${ORANGE}Node, NVM, Yarn, Git, Docker, Nginx, Go ${NC} \n"
+echo -e "${RED} Packages Installed: ${ORANGE}NVM, Node, Yarn, Git, Nginx, Go ${NC} \n"
 sleep 2
