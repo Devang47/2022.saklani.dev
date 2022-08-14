@@ -28,20 +28,20 @@ nvm install node
 
 echo -e "\n ${RED} Installing ${ORANGE} Yarn... ${NC} \n"
 sleep 2
-npm i -g yarn
+sudo npm i -g yarn
 
 echo -e "\n ${RED} Installing ${ORANGE} Git... ${NC} \n"
 sleep 2
-apt-get install git -y
+sudo apt-get install git -y
 git --version
 
 echo -e "\n ${RED} Installing ${ORANGE} Nginx... ${NC} \n"
 sleep 2
-apt-get install nginx -y
+sudo apt-get install nginx -y
 
 echo -e "\n ${RED} Installing ${ORANGE} Go... ${NC} \n"
 sleep 2
-apt install golang-go -y
+sudo apt install golang-go -y
 
 echo -e "\n ${ORANGE} Done!! ${NC}"
 echo -e "${RED} Packages Installed: ${ORANGE}NVM, Node, Yarn, Git, Nginx, Go ${NC} \n"
