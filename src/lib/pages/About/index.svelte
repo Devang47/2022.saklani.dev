@@ -68,7 +68,7 @@
 			<div class="relative mt-7">
 				<p>
 					I also recently <a
-						href="http://"
+						href="https://impulse.saklani.dev/"
 						class="link highlight-name"
 						target="_blank"
 						rel="noopener noreferrer">created a webapp</a

@@ -64,7 +64,7 @@
 					<Github class="h-full fill-white hover:fill-teal_tint" />
 				</a>
 				<a
-					href="https://impulse.pages.dev/"
+					href="https://impulse.saklani.dev/"
 					target="_blank"
 					class="link h-full"
 					rel="noopener noreferrer"
