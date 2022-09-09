@@ -21,18 +21,3 @@
 		</a>
 	</div>
 </footer>
-
-<style lang="postcss">
-	footer {
-		@apply py-10 flex items-center justify-center flex-col opacity-0;
-	}
-
-	.footer-content {
-		@apply text-center text-bright_secondary;
-		@apply font-semibold text-sm mb-1;
-	}
-
-	.footer-links {
-		@apply flex justify-center items-center gap-2;
-	}
-</style>

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '$styles/tailwind.css';
 	import '$styles/custom.css';
+	import '$styles/global.scss';
 
 	import Footer from '$sections/Footer/index.svelte';
 </script>

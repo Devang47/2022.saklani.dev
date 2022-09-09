@@ -1,0 +1,32 @@
+.showcase-projects {
+	@apply flex items-center justify-start;
+	@apply relative overflow-hidden md:pt-8 md:pb-8;
+	@apply xl:min-h-[70vh];
+	@apply mt-32 opacity-0;
+	.content {
+		@apply text-[22px] md:text-[24px] text-left md:leading-[38px];
+		@apply text-bright_secondary;
+		@apply my-4 mx-auto sm:w-full md:w-10/12 lg:w-[80%] lg:max-w-6xl;
+		@apply md:grid;
+		grid-template-columns: 550px 1fr;
+		place-items: center;
+	}
+
+	h2 {
+		@apply text-2xl font-bold;
+	}
+
+	.right-showcase-image {
+		@apply h-[370px] w-full place-self-center hidden lg:block;
+		@apply rounded-lg overflow-hidden shadow-xl relative;
+	}
+
+	img {
+		@apply h-full w-full object-cover transition-all duration-75;
+	}
+
+	.projects-list {
+		@apply flex items-start justify-start gap-16 flex-col;
+		@apply mt-[4.5rem];
+	}
+}

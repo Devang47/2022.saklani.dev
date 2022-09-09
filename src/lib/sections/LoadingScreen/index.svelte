@@ -33,16 +33,16 @@
 </script>
 
 <div class="loading" bind:this={loadingScreen}>
-	<div class="sk-cube-grid" bind:this={loadingAnimation}>
-		<div class="sk-cube sk-cube1" />
-		<div class="sk-cube sk-cube2" />
-		<div class="sk-cube sk-cube3" />
-		<div class="sk-cube sk-cube4" />
-		<div class="sk-cube sk-cube5" />
-		<div class="sk-cube sk-cube6" />
-		<div class="sk-cube sk-cube7" />
-		<div class="sk-cube sk-cube8" />
-		<div class="sk-cube sk-cube9" />
+	<div class="anime-cube-grid" bind:this={loadingAnimation}>
+		<div class="anime-cube anime-cube1" />
+		<div class="anime-cube anime-cube2" />
+		<div class="anime-cube anime-cube3" />
+		<div class="anime-cube anime-cube4" />
+		<div class="anime-cube anime-cube5" />
+		<div class="anime-cube anime-cube6" />
+		<div class="anime-cube anime-cube7" />
+		<div class="anime-cube anime-cube8" />
+		<div class="anime-cube anime-cube9" />
 	</div>
 </div>
 
@@ -56,58 +56,58 @@
 		@apply fixed inset-0 h-screen w-screen flex items-center justify-center bg-dark_primary z-50;
 	}
 
-	.sk-cube-grid {
+	.anime-cube-grid {
 		width: 50px;
 		height: 50px;
 		margin: 100px auto;
 	}
 
-	.sk-cube-grid .sk-cube {
+	.anime-cube-grid .anime-cube {
 		@apply bg-bright_primary;
 		width: 33%;
 		height: 33%;
 		float: left;
-		-webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
-		animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+		-webkit-animation: anime-cubeGridScaleDelay 1.3s infinite ease-in-out;
+		animation: anime-cubeGridScaleDelay 1.3s infinite ease-in-out;
 	}
-	.sk-cube-grid .sk-cube1 {
+	.anime-cube-grid .anime-cube1 {
 		-webkit-animation-delay: 0.2s;
 		animation-delay: 0.2s;
 	}
-	.sk-cube-grid .sk-cube2 {
+	.anime-cube-grid .anime-cube2 {
 		-webkit-animation-delay: 0.3s;
 		animation-delay: 0.3s;
 	}
-	.sk-cube-grid .sk-cube3 {
+	.anime-cube-grid .anime-cube3 {
 		-webkit-animation-delay: 0.4s;
 		animation-delay: 0.4s;
 	}
-	.sk-cube-grid .sk-cube4 {
+	.anime-cube-grid .anime-cube4 {
 		-webkit-animation-delay: 0.1s;
 		animation-delay: 0.1s;
 	}
-	.sk-cube-grid .sk-cube5 {
+	.anime-cube-grid .anime-cube5 {
 		-webkit-animation-delay: 0.2s;
 		animation-delay: 0.2s;
 	}
-	.sk-cube-grid .sk-cube6 {
+	.anime-cube-grid .anime-cube6 {
 		-webkit-animation-delay: 0.3s;
 		animation-delay: 0.3s;
 	}
-	.sk-cube-grid .sk-cube7 {
+	.anime-cube-grid .anime-cube7 {
 		-webkit-animation-delay: 0s;
 		animation-delay: 0s;
 	}
-	.sk-cube-grid .sk-cube8 {
+	.anime-cube-grid .anime-cube8 {
 		-webkit-animation-delay: 0.1s;
 		animation-delay: 0.1s;
 	}
-	.sk-cube-grid .sk-cube9 {
+	.anime-cube-grid .anime-cube9 {
 		-webkit-animation-delay: 0.2s;
 		animation-delay: 0.2s;
 	}
 
-	@-webkit-keyframes sk-cubeGridScaleDelay {
+	@-webkit-keyframes anime-cubeGridScaleDelay {
 		0%,
 		70%,
 		100% {
@@ -120,7 +120,7 @@
 		}
 	}
 
-	@keyframes sk-cubeGridScaleDelay {
+	@keyframes anime-cubeGridScaleDelay {
 		0%,
 		70%,
 		100% {
