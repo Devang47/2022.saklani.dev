@@ -20,10 +20,10 @@
 	}
 
 	h2 {
-		@apply text-bright-primary font-bold text-[32px] mb-4 relative;
+		@apply text-bright-primary font-bold text-[26px] md:text-4xl mb-4 relative;
 	}
 
 	h3 {
-		@apply text-[#B2B2B2] text-[20px] leading-8 relative;
+		@apply text-[#B2B2B2] text-base md:text-lg leading-[1.8rem] lg:leading-8 relative md:w-10/12;
 	}
 }

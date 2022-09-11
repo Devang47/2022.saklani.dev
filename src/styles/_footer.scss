@@ -1,5 +1,5 @@
 footer {
-	@apply py-10 flex items-center justify-center flex-col opacity-0 duration-[0.35s] translate-y-12 ease-in;
+	@apply py-10 flex items-center justify-center flex-col translate-y-12;
 	.footer-content {
 		@apply text-center text-bright-secondary;
 		@apply font-semibold text-sm mb-1;

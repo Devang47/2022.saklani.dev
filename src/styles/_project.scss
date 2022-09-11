@@ -19,11 +19,11 @@
 	}
 
 	.title {
-		@apply text-bright-primary font-bold text-[24px] mt-1;
+		@apply text-bright-primary font-bold text-[22px] md:text-[24px] mt-1;
 	}
 
 	.detail {
-		@apply text-[20px] leading-8 mt-6 lg:mt-0;
+		@apply text-lg leading-[1.8rem] md:text-[20px] md:leading-8 mt-5 md:mt-6 lg:mt-0;
 	}
 }
 .project-showcase-images {

@@ -20,11 +20,13 @@ const minification_options = {
 	removeEmptyElements: true
 };
 
-export async function handle({ request, resolve }) {
-	const response = await resolve(request);
+export async function handle({ event, resolve }) {
+	const response = await resolve(event);
 
-	if (response.headers['content-type'] === 'text/html') {
-		response.body = minify(response.body, minification_options); //Minifies the response.body
+	if (response.headers.get('content-type').startsWith('text/html')) {
+		const body = await response.text();
+		return new Response(minify(body, minification_options), response);
+		// response.body = ; //Minifies the response.body
 	}
 
 	return response; //Finally, we return back the response

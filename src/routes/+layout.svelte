@@ -1,8 +1,9 @@
 <script lang="ts">
+	import Footer from '$sections/Footer/index.svelte';
 	import '$styles/tailwind.css';
 	import '$styles/global.scss';
 
-	import Footer from '$sections/Footer/index.svelte';
+	export const prerender = true;
 </script>
 
 <svelte:head>

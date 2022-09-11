@@ -10,7 +10,7 @@
 	}
 
 	.my-short-intro {
-		@apply text-[24px] leading-[38px] text-left w-11/12 pb-3;
+		@apply text-[22px] md:text-[24px] md:leading-[38px] text-left w-11/12 pb-3;
 		@apply sm:w-10/12;
 		@apply sm:max-w-lg md:max-w-[37rem] md:w-full text-bright-secondary;
 		@apply md:leading-[38px] relative;
