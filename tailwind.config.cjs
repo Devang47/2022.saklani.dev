@@ -1,6 +1,5 @@
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
-	darkMode: false, // or 'media' or 'class' => use depending on dark mode approach
 	theme: {
 		extend: {
 			colors: {
