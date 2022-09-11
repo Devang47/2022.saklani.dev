@@ -3,18 +3,21 @@ module.exports = {
 	purge: ['./src/**/*.{html,js,svelte,ts}'],
 	darkMode: false, // or 'media' or 'class' => use depending on dark mode approach
 	theme: {
-		colors: {
-			...require('tailwindcss/colors'),
-			dark_primary: '#040407',
-			dark_secondary: '#1b1b1b',
-			dark_button: '#151515',
-			bright_primary: '#E7E7E9',
-			bright_secondary: '#D0D0D0',
-			purple_tint: '#4158D6',
-			blue_tint: '#0053B1',
-			teal_tint: '#1AF4FF'
+		extend: {
+			colors: {
+				"dark-primary": '#040407',
+				"dark-secondary": '#1b1b1b',
+				"dark-button": '#151515',
+				"bright-primary": '#E7E7E9',
+				"bright-secondary": '#D0D0D0',
+				"teal-tint": '#1AF4FF',
+			},
+			backgroundImage: {
+				"blue-gradient": 'linear-gradient(57deg, rgba(26, 244, 255, 1) 0%, rgba(0, 185, 236, 1) 100%);'
+			}
 		}
 	},
+
 	variants: {
 		extend: {}
 	},

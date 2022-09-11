@@ -1,5 +1,7 @@
 <script lang="ts">
 	import Button from '$components/Button/index.svelte';
+	import DocumentIcon from '$lib/icons/DocumentIcon.svelte';
+	import Gmail from '$lib/icons/Gmail.svelte';
 	import { animate } from 'motion';
 	import { onMount } from 'svelte';
 
@@ -51,10 +53,15 @@
 	<div class="intro-content">
 		<h1 class="my-short-intro">
 			<p bind:this={paragraphText}>
-				Hello! I’m <span class="highlight-name"> Devang Saklani </span>
-				— curious developer based in Uttarakhand, India 🇮🇳. Interested in meditation, websites, science
-				& developer tools, human interactions, productivity. Currently Web Developer at Monogram, where
-				we're building custom Jamstack products for business needs.
+				Hello! I’m Devang Saklani — curious developer based in Uttarakhand, India 🇮🇳. Interested in
+
+				<span class="text-[#e06b74]"> meditation</span>,
+				<span class="text-[#98c379]"> websites</span>,
+				<span class="text-[#e5c07a]"> science & developer tools</span>,
+				<span class="text-[#62aeef]"> human interactions</span>,
+				<span class="text-[#c778dd]"> productivity</span>
+				. Currently Web Developer at Monogram, where we're building custom Jamstack products for business
+				needs.
 			</p>
 			<div class="reveal" bind:this={paragraphReveal} />
 		</h1>

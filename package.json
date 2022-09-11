@@ -40,6 +40,7 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-static": "1.0.0-next.26",
+		"html-minifier": "^4.0.0",
 		"motion": "^10.8.1",
 		"sass": "^1.54.9"
 	},

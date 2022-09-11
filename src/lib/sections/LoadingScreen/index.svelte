@@ -53,7 +53,7 @@
 
 <style lang="postcss">
 	.loading {
-		@apply fixed inset-0 h-screen w-screen flex items-center justify-center bg-dark_primary z-50;
+		@apply fixed inset-0 h-screen w-screen flex items-center justify-center bg-dark-primary z-50;
 	}
 
 	.anime-cube-grid {
@@ -63,72 +63,47 @@
 	}
 
 	.anime-cube-grid .anime-cube {
-		@apply bg-bright_primary;
+		@apply bg-bright-primary;
 		width: 33%;
 		height: 33%;
 		float: left;
-		-webkit-animation: anime-cubeGridScaleDelay 1.3s infinite ease-in-out;
 		animation: anime-cubeGridScaleDelay 1.3s infinite ease-in-out;
 	}
 	.anime-cube-grid .anime-cube1 {
-		-webkit-animation-delay: 0.2s;
 		animation-delay: 0.2s;
 	}
 	.anime-cube-grid .anime-cube2 {
-		-webkit-animation-delay: 0.3s;
 		animation-delay: 0.3s;
 	}
 	.anime-cube-grid .anime-cube3 {
-		-webkit-animation-delay: 0.4s;
 		animation-delay: 0.4s;
 	}
 	.anime-cube-grid .anime-cube4 {
-		-webkit-animation-delay: 0.1s;
 		animation-delay: 0.1s;
 	}
 	.anime-cube-grid .anime-cube5 {
-		-webkit-animation-delay: 0.2s;
 		animation-delay: 0.2s;
 	}
 	.anime-cube-grid .anime-cube6 {
-		-webkit-animation-delay: 0.3s;
 		animation-delay: 0.3s;
 	}
 	.anime-cube-grid .anime-cube7 {
-		-webkit-animation-delay: 0s;
 		animation-delay: 0s;
 	}
 	.anime-cube-grid .anime-cube8 {
-		-webkit-animation-delay: 0.1s;
 		animation-delay: 0.1s;
 	}
 	.anime-cube-grid .anime-cube9 {
-		-webkit-animation-delay: 0.2s;
 		animation-delay: 0.2s;
-	}
-
-	@-webkit-keyframes anime-cubeGridScaleDelay {
-		0%,
-		70%,
-		100% {
-			-webkit-transform: scale3D(1, 1, 1);
-			transform: scale3D(1, 1, 1);
-		}
-		35% {
-			-webkit-transform: scale3D(0, 0, 1);
-			transform: scale3D(0, 0, 1);
-		}
 	}
 
 	@keyframes anime-cubeGridScaleDelay {
 		0%,
 		70%,
 		100% {
-			-webkit-transform: scale3D(1, 1, 1);
 			transform: scale3D(1, 1, 1);
 		}
 		35% {
-			-webkit-transform: scale3D(0, 0, 1);
 			transform: scale3D(0, 0, 1);
 		}
 	}

@@ -2,17 +2,17 @@
 
 .about-section-wrapper {
 	@apply pt-20 md:py-24 lg:py-28 flex items-center justify-start;
-	@apply relative overflow-hidden text-bright_secondary;
+	@apply relative overflow-hidden text-bright-secondary;
 	.intro-content {
 		@apply flex flex-col-reverse lg:flex-row justify-between items-start gap-2 lg:gap-6;
 		@apply mx-auto w-[90%] sm:w-11/12 md:w-10/12 lg:w-[80%] lg:max-w-6xl;
 		@apply relative z-10;
 	}
 
-	.intro-content > span {
+	.intro-content > .text {
 		@apply text-[20px] leading-[34px] text-left w-11/12 pb-3;
 		@apply sm:w-10/12;
-		@apply sm:max-w-lg md:max-w-[37rem] md:w-full text-bright_secondary;
+		@apply sm:max-w-lg md:max-w-[37rem] md:w-full text-[#c8c8c8];
 		@apply md:leading-[36px];
 	}
 
@@ -24,7 +24,7 @@
 	p {
 		@apply opacity-0;
 		&:not(:first-of-type) {
-			@apply mt-4;
+			// @apply mt-4;
 		}
 	}
 }

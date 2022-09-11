@@ -6,16 +6,17 @@ export const observer = writable<IntersectionObserver>();
 export const setItemActive = (entries, observer) => {
 	entries.forEach((entry) => {
 		if (entry.isIntersecting) {
-			animate(
-				entry.target,
-				{
-					opacity: 1
-				},
-				{
-					duration: 0.4,
-					easing: 'ease-in-out'
-				}
-			);
+			console.log(entry.target.classList.add('visible-animate'));
+			// animate(
+			// 	entry.target,
+			// 	{
+			// 		opacity: 1
+			// 	},
+			// 	{
+			// 		duration: 0.4,
+			// 		easing: 'ease-in-out'
+			// 	}
+			// );
 		}
 	});
 };

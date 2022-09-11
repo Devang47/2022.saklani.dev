@@ -1,17 +1,11 @@
 <script lang="ts">
 	import Introduction from '$sections/Introduction/index.svelte';
-	import Projects from '$sections/Project/index.svelte';
+	import Projects from '$lib/sections/MainProjects/index.svelte';
+	import ShowcaseProjects from '$lib/sections/OtherProjects/index.svelte';
 	import Contact from '$sections/Contact/index.svelte';
-
-	import ShowcaseProjects from '$sections/ShowcaseProjects/index.svelte';
 </script>
 
-<div>
-	<Introduction />
-	<Projects />
-	<ShowcaseProjects />
-	<Contact />
-</div>
-
-<style lang="postcss">
-</style>
+<Introduction />
+<Projects />
+<ShowcaseProjects />
+<Contact />

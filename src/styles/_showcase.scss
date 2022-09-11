@@ -1,13 +1,7 @@
 .showcase-projects {
-	@apply flex items-center justify-start;
-	@apply relative overflow-hidden md:pt-8 md:pb-8;
-	@apply xl:min-h-[70vh];
-	@apply mt-32 opacity-0;
+	@apply flex items-center justify-start relative overflow-hidden md:pt-8 md:pb-8 xl:min-h-[70vh] mt-32 opacity-0;
 	.content {
-		@apply text-[22px] md:text-[24px] text-left md:leading-[38px];
-		@apply text-bright_secondary;
-		@apply my-4 mx-auto sm:w-full md:w-10/12 lg:w-[80%] lg:max-w-6xl;
-		@apply md:grid;
+		@apply text-[22px] md:text-[24px] text-left md:leading-[38px] text-bright-secondary my-4 mx-auto sm:w-full md:w-10/12 lg:w-[80%] lg:max-w-6xl md:grid;
 		grid-template-columns: 550px 1fr;
 		place-items: center;
 	}
