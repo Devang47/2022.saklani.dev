@@ -26,7 +26,6 @@ export async function handle({ event, resolve }) {
 	if (response.headers.get('content-type').startsWith('text/html')) {
 		const body = await response.text();
 		return new Response(minify(body, minification_options), response);
-		// response.body = ; //Minifies the response.body
 	}
 
 	return response; //Finally, we return back the response

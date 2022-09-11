@@ -23,8 +23,5 @@
 
 	p {
 		@apply opacity-0;
-		&:not(:first-of-type) {
-			// @apply mt-4;
-		}
 	}
 }

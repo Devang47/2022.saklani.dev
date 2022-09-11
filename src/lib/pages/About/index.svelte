@@ -6,7 +6,6 @@
 	onMount(async () => {
 		const textRef = [...document.getElementsByTagName('p')];
 		const loaderRef = [...document.getElementsByClassName('reveal')];
-		console.log(textRef, loaderRef);
 
 		await animate(
 			loaderRef,
