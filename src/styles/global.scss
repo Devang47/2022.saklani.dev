@@ -72,7 +72,7 @@ canvas {
 	right: 0;
 	width: 100%;
 	height: 100%;
-	clippath: text;
+	clip-path: text;
 	pointer-events: none;
 	opacity: 1;
 	@apply bg-bright-primary;

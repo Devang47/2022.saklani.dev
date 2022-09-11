@@ -1,6 +1,5 @@
 module.exports = {
-	mode: 'jit',
-	purge: ['./src/**/*.{html,js,svelte,ts}'],
+	content: ['./src/**/*.{html,js,svelte,ts}'],
 	darkMode: false, // or 'media' or 'class' => use depending on dark mode approach
 	theme: {
 		extend: {
@@ -17,9 +16,4 @@ module.exports = {
 			}
 		}
 	},
-
-	variants: {
-		extend: {}
-	},
-	plugins: []
 };
