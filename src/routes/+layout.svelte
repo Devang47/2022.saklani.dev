@@ -2,7 +2,7 @@
 	import Footer from '$sections/Footer/index.svelte';
 	import '$styles/tailwind.css';
 	import '$styles/global.scss';
-
+	
 	export const prerender = true;
 </script>
 
