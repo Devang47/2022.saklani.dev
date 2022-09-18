@@ -50,7 +50,7 @@
 					<p>
 						Hello! My name is <span class="highlight">Devang Saklani</span> and I enjoy creating
 						things that live on the internet. I am a
-						<span class="highlight">Self-taught Web developer</span> and currently looking for new opportunities.
+						<span class="highlight">Self-taught Software Engineer</span> and currently looking for new opportunities.
 					</p>
 					<div class="reveal" />
 				</div>

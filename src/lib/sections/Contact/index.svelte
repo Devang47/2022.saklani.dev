@@ -23,7 +23,7 @@
 		<div class="get-in-touch">
 			<h2>Get in touch</h2>
 			<h3>
-				I’m currently looking for new opportunities as a Web developer. So, feel free to message me,
+				I’m currently looking for new opportunities as a Software Engineer. So, feel free to message me,
 				my inbox is always open. Whether you just have a question or want to say hi, I’ll try my
 				best to get back to you!
 			</h3>
