@@ -41,6 +41,5 @@
 			"$icons/*": ["src/lib/icons/*"]
 		}
 	},
-	"extends": "./.svelte-kit/tsconfig.json",
 	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte", "src/sw.js"]
 }

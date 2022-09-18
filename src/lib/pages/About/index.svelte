@@ -50,7 +50,8 @@
 					<p>
 						Hello! My name is <span class="highlight">Devang Saklani</span> and I enjoy creating
 						things that live on the internet. I am a
-						<span class="highlight">Self-taught Software Engineer</span> and currently looking for new opportunities.
+						<span class="highlight">Self-taught Software Engineer</span> and currently looking for new
+						opportunities.
 					</p>
 					<div class="reveal" />
 				</div>
@@ -81,14 +82,14 @@
 
 			<div class="relative mt-7">
 				<p>
-					Recently <a
-						href="https://impulse.saklani.dev/"
+					Recently I <a
+						href="https://rooms.saklani.dev/"
 						class="highlight highlight-name flex items-center gap-2"
 						target="_blank"
 						rel="noopener noreferrer"
-						>created a webapp
-					</a> that lets you send messages, links, documents to all of your devices with a encrypted
-					and secure way using Next.js & Firebase.
+						>created a application
+					</a> that lets you create a private chat room where you can share text & files across multiple
+					anonymous devices.
 				</p>
 				<div class="reveal" />
 			</div>
