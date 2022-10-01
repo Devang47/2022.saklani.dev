@@ -14,9 +14,10 @@
 		<div class="detail">
 			In this app you can add, select or
 			<span class="highlight"> judge thumbnails </span>
-			according your liking. Add a thumbnail, title and this app will show you the youtube video preview,
-			you can also add videos from youtube, add multiple videos and then you can judge which one looks
-			better.
+			 according to your liking. Add a thumbnail, title and this app
+			will show you the youtube video preview, you can also add videos
+			from youtube, add multiple videos and then you can judge which one looks better.
+			
 			<br /> Tools used: Svetle + Tailwind, MongoDB + Mongoose, Nodejs + Express.
 			<br />
 			<div class="flex items-center justify-start gap-4 my-3 mt-4 h-[22px]">
