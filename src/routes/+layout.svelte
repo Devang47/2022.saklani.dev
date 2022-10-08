@@ -39,7 +39,7 @@
 		partytown = {
 			forward: ['dataLayer.push'],
 			resolveUrl: (url) => {
-				const siteUrl = 'https://rooms.saklani.dev/proxytown';
+				const siteUrl = 'https://saklani.dev/proxytown';
 
 				if (url.hostname === 'www.googletagmanager.com') {
 					const proxyUrl = new URL(`${siteUrl}/gtm`);
