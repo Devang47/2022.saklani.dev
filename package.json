@@ -46,6 +46,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@builder.io/partytown": "^0.7.1",
 		"motion": "^10.14.2"
 	},
 	"repository": {

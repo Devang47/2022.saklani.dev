@@ -3,16 +3,17 @@ import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: preprocess({
-		postcss: true,
-		typescript: true,
-	}),
+	preprocess: [
+		preprocess({
+			typescript: true,
+			postcss: true,
+			preserve: ['partytown']
+		}),
+	],
 
 	kit: {
-		adapter: adapter({
-			fallback: '/404.html'
-		}),
+		adapter: adapter()
 	}
-};
+}
 
 export default config;

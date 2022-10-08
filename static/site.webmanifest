@@ -1,0 +1,35 @@
+{
+	"name": "DevangSaklani",
+	"short_name": "DevangSaklani",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "/favicon/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/favicon/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"shortcuts": [
+		{
+			"name": "Join existing room",
+			"short_name": "Join",
+			"description": "Join a private room that already exists.",
+			"url": "/join",
+			"icons": [
+				{
+					"src": "/favicon/android-chrome-192x192.png",
+					"sizes": "192x192"
+				}
+			]
+		}
+	],
+	"theme_color": "#040407",
+	"background_color": "#040407",
+	"display": "standalone",
+	"description": "Devang Saklani is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences and web apps."
+}
