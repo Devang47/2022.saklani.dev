@@ -28,6 +28,7 @@
 			dataLayer.push(arguments);
 		}
 		gtag('js', new Date());
+		gtag('event', 'page_visit');
 
 		gtag('config', 'G-LD4WWE9J3R', {
 			page_path: window.location.pathname
