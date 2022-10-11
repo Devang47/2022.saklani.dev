@@ -65,19 +65,6 @@
 					</p>
 					<div class="reveal" />
 				</div>
-				<div class="mt-4 relative">
-					<p>
-						I always wanted a personal laptop but due to my financial conditions, it got delayed and
-						delayed. My parents saw that and like every parent, they sacrificed a lot for their
-						children. In 2020, my mom withdrew her savings and bought me a laptop, it was a Lenovo
-						Ideapad. I always wanted to make my parents proud and support my family and it was the
-						driving force that made me really passionate and hard working. After 7 months I got my
-						first job.
-						<span class="reveal" />
-					</p>
-
-					<div class="reveal" />
-				</div>
 			</div>
 
 			<div class="relative mt-7">
