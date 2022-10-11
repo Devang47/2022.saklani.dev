@@ -97,7 +97,7 @@
 				</ul>
 
 				<ul class="mt-4 flex flex-col gap-2">
-					{#each ['Svelte', 'Tailwind', 'Node & Express', 'MongoDB'] as item}
+					{#each ['Svelte', 'Tailwind', 'Github Actions', 'MongoDB'] as item}
 						<li class="relative w-fit">
 							<p>▹ {item}</p>
 							<div class="reveal" />
