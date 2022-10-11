@@ -88,7 +88,7 @@
 
 			<div class="grid grid-cols-2 pb-10 md:pb-0">
 				<ul class="mt-4 flex flex-col gap-2">
-					{#each ['TypeScript', 'Nextjs', 'AWS Beanstack & EC2', 'Golang'] as item}
+					{#each ['TypeScript', 'Nextjs', 'AWS Beanstalk & Firebase', 'Golang'] as item}
 						<li class="relative w-fit">
 							<p>▹ {item}</p>
 							<div class="reveal" />
