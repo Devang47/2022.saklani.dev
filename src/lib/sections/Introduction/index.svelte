@@ -60,8 +60,7 @@
 				<span class="text-[#e5c07a]"> science & developer tools</span>,
 				<span class="text-[#62aeef]"> human interactions</span>,
 				<span class="text-[#c778dd]"> productivity</span>
-				. Currently Software Engineer at Monogram, where we're building custom Jamstack products for business
-				needs.
+				. Currently learning DevOps and looking for new opportunities as a Web Developer.
 			</p>
 			<div class="reveal" bind:this={paragraphReveal} />
 		</h1>
