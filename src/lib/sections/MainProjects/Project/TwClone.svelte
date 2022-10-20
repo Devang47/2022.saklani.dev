@@ -9,20 +9,21 @@
 	<div class="project-wrapper">
 		<div class="lg:w-full">
 			<div class="date">2022</div>
-			<div class="title "><a href="https://rate-thumbnails.saklani.dev/"> Rate thumbnails</a></div>
+			<div class="title "><a href="https://twclone.saklani.dev/"> Twitter Clone </a></div>
 		</div>
 		<div class="detail">
-			In this app you can add, select or
-			<span class="highlight"> judge thumbnails </span>
-			according to your liking. Add a thumbnail, title and this app will show you the youtube video preview,
-			you can also add videos from youtube, add multiple videos and then you can judge which one looks
-			better.
-
-			<br /> Tools used: Svetle + Tailwind, MongoDB + Mongoose, Nodejs + Express.
+			This is basically a clone of Twitter. The main purpose of this project was to <span
+				class="highlight"
+			>
+				practice my skills
+			</span>
+			in Golang, Github Actions, AWS and Bash scripting.
+			<br /> Tools used: Golang, Svetle + Tailwind, Auth0, Mongodb, Vercel, Elastic Beanstack,
+			Websocket, Bash.
 			<br />
 			<div class="flex items-center justify-start gap-4 my-3 mt-4 h-[22px]">
 				<a
-					href="https://github.com/Devang47/rate-thumbnails-frontend"
+					href="https://github.com/Devang47/twclone"
 					target="_blank"
 					class="link h-full"
 					rel="noopener noreferrer"
@@ -30,7 +31,7 @@
 					<Github class="h-full fill-white hover:fill-teal-tint" />
 				</a>
 				<a
-					href="https://rate-thumbnails.saklani.dev/"
+					href="https://twclone.saklani.dev/"
 					target="_blank"
 					class="link h-full"
 					rel="noopener noreferrer"
@@ -44,12 +45,12 @@
 		<div class="w-fit h-full flex items-center justify-start gap-10 pointer-events-none">
 			<img
 				loading="lazy"
-				src="https://res.cloudinary.com/dyn3sdtfm/image/upload/c_scale,w_600/v1662860995/rate-thumbnail-mobile_bt95kw.webp"
+				src="https://res.cloudinary.com/dyn3sdtfm/image/upload/c_scale,w_600/v1666276614/pic2_e4plv2.webp"
 				alt=""
 			/>
 			<img
 				loading="lazy"
-				src="https://res.cloudinary.com/dyn3sdtfm/image/upload/c_scale,w_1600/v1662860995/rate-thumbnail_cqujkw.webp"
+				src="https://res.cloudinary.com/dyn3sdtfm/image/upload/c_scale,w_1600/v1666276614/pic1_iwt3r8.webp"
 				alt=""
 			/>
 		</div>

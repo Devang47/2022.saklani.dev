@@ -5,4 +5,4 @@ node_modules
 /package
 .vscode/
 .pnpm-debug.log
-
+.vercel

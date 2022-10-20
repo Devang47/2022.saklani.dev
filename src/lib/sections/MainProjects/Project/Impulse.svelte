@@ -9,7 +9,9 @@
 	<div class="project-wrapper">
 		<div class="lg:w-full">
 			<div class="date">2021</div>
-			<div class="title ">Impulse | Messaging service</div>
+			<div class="title ">
+				<a href="https://impulse.saklani.dev/"> Impulse | Messaging service</a>
+			</div>
 		</div>
 		<div class="detail">
 			An app that helps you to send messages, links, documents to all of your devices in an
