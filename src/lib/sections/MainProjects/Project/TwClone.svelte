@@ -9,7 +9,11 @@
 	<div class="project-wrapper">
 		<div class="lg:w-full">
 			<div class="date">2022</div>
-			<div class="title "><a href="https://twclone.saklani.dev/"> Twitter Clone </a></div>
+			<div class="title ">
+				<a href="https://twclone.saklani.dev/" target="_blank" rel="noopener noreferrer">
+					Twitter Clone
+				</a>
+			</div>
 		</div>
 		<div class="detail">
 			This is basically a clone of Twitter. The main purpose of this project was to <span
@@ -17,7 +21,7 @@
 			>
 				practice my skills
 			</span>
-			in Golang, Github Actions, AWS and Bash scripting.
+			in Golang, Github Actions, AWS and Bash scripting. I also designed the whole site myself.
 			<br /> Tools used: Golang, Svetle + Tailwind, Auth0, Mongodb, Vercel, Elastic Beanstack,
 			Websocket, Bash.
 			<br />

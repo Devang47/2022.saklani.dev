@@ -9,7 +9,9 @@
 	<div class="project-wrapper">
 		<div class="lg:w-full">
 			<div class="date">2022</div>
-			<div class="title "><a href="https://rooms.saklani.dev/">ChatRooms</a></div>
+			<div class="title ">
+				<a href="https://rooms.saklani.dev/" target="_blank" rel="noopener noreferrer">ChatRooms</a>
+			</div>
 		</div>
 		<div class="detail">
 			In this website you can create a <span class="highlight"> private chat room </span> and share

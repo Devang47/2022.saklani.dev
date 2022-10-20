@@ -10,7 +10,9 @@
 		<div class="lg:w-full">
 			<div class="date">2021</div>
 			<div class="title ">
-				<a href="https://impulse.saklani.dev/"> Impulse | Messaging service</a>
+				<a href="https://impulse.saklani.dev/" target="_blank" rel="noopener noreferrer">
+					Impulse | Messaging service</a
+				>
 			</div>
 		</div>
 		<div class="detail">

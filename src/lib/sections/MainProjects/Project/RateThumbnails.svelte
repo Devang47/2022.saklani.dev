@@ -9,7 +9,11 @@
 	<div class="project-wrapper">
 		<div class="lg:w-full">
 			<div class="date">2022</div>
-			<div class="title "><a href="https://rate-thumbnails.saklani.dev/"> Rate thumbnails</a></div>
+			<div class="title ">
+				<a href="https://rate-thumbnails.saklani.dev/" target="_blank" rel="noopener noreferrer">
+					Rate thumbnails</a
+				>
+			</div>
 		</div>
 		<div class="detail">
 			In this app you can add, select or
