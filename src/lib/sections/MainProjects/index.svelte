@@ -6,8 +6,9 @@
 	import TwClone from './Project/TwClone.svelte';
 </script>
 
+<!--
 <TwClone />
-<div class="mt-32 md:mt-36" />
+<div class="mt-32 md:mt-36" />  -->
 <ChatRooms />
 <div class="mt-32 md:mt-36" />
 <RateThumbnails />
