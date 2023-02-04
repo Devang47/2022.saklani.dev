@@ -1,8 +1,5 @@
 <script lang="ts">
-	import Footer from '$sections/Footer/index.svelte';
 	import SvelteSeo from 'svelte-seo';
-	import '$styles/tailwind.css';
-	import '$styles/global.scss';
 	import { partytownSnippet } from '@builder.io/partytown/integration';
 	import { onMount } from 'svelte';
 
@@ -13,8 +10,6 @@
 			scriptEl.textContent = partytownSnippet();
 		}
 	});
-
-	export const prerender = true;
 </script>
 
 <svelte:head>
@@ -64,8 +59,6 @@
 </svelte:head>
 
 <slot />
-
-<Footer />
 
 <SvelteSeo
 	title="Devang Saklani | Software Engineer"
