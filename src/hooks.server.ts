@@ -1,5 +1,4 @@
-import { minify } from 'html-minifier';
-import { building } from '$app/environment';
+import { minify } from 'html-minifier'; //Imports the module
 
 const minification_options = {
 	collapseBooleanAttributes: true,
@@ -9,27 +8,25 @@ const minification_options = {
 	html5: true,
 	ignoreCustomComments: [/^#/],
 	minifyCSS: true,
-	minifyJS: false,
+	minifyJS: true,
 	removeAttributeQuotes: true,
-	removeComments: false, // some hydration code needs comments, so leave them in
+	removeComments: true,
 	removeOptionalTags: true,
 	removeRedundantAttributes: true,
 	removeScriptTypeAttributes: true,
 	removeStyleLinkTypeAttributes: true,
 	sortAttributes: true,
-	sortClassName: true
+	sortClassName: true,
+	removeEmptyElements: true
 };
 
-/** @type {import('@sveltejs/kit').Handle} */
 export async function handle({ event, resolve }) {
-	let page = '';
+	const response = await resolve(event);
 
-	return resolve(event, {
-		transformPageChunk: ({ html, done }) => {
-			page += html;
-			if (done) {
-				return building ? minify(page, minification_options) : page;
-			}
-		}
-	});
+	if (response.headers.get('content-type').startsWith('text/html')) {
+		const body = await response.text();
+		return new Response(minify(body, minification_options), response);
+	}
+
+	return response; //Finally, we return back the response
 }
