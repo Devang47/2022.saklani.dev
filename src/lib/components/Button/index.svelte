@@ -4,6 +4,6 @@
 	export let bindTarget = {};
 </script>
 
-<button bind:this={bindTarget} class={`${variant} button ${$$props.class} ${padding}`}>
+<button bind:this={bindTarget} class={`${variant} button ${$$props.class || ''} ${padding}`}>
 	<slot />
 </button>

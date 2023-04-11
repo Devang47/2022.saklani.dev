@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Button from '$components/Button/index.svelte';
+	import CalLogo from '$lib/icons/CalLogo.svelte';
 	import ExternalLink from '$lib/icons/ExternalLink.svelte';
 	import Github from '$lib/icons/Github.svelte';
 	import Gmail from '$lib/icons/Gmail.svelte';
@@ -23,8 +24,8 @@
 		<div class="get-in-touch">
 			<h2>Get in touch</h2>
 			<h3>
-				I’m currently looking for new opportunities as a Software Engineer. So, feel free to message me,
-				my inbox is always open. Whether you just have a question or want to say hi, I’ll try my
+				I’m currently looking for new opportunities as a Software Engineer. So, feel free to message
+				me, my inbox is always open. Whether you just have a question or want to say hi, I’ll try my
 				best to get back to you!
 			</h3>
 		</div>
@@ -43,34 +44,53 @@
 				</Button>
 			</a>
 			<div class="flex items-center justify-around gap-4 mt-4 w-full">
-				<a href="mailto:devangsaklani@gmail.com" class="group"
+				<a href="https://cal.com/devang" target="_blank" rel="noopener noreferrer" class="group"
+					><Button variant="outlined" padding="square">
+						<CalLogo
+							class="block fill-bright-secondary duration-150 group-hover:fill-white w-[30px]"
+						/>
+					</Button></a
+				>
+				<a
+					href="mailto:devangsaklani@gmail.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="group"
 					><Button variant="outlined" padding="square">
 						<Gmail
 							class="block fill-bright-secondary duration-150 group-hover:fill-[#EA4335] w-[20px] h-[20px]"
 						/>
 					</Button></a
 				>
-				<a href="https://www.linkedin.com/in/devangsaklani/" class="group"
+				<!-- <a href="https://www.linkedin.com/in/devangsaklani/" class="group"
 					><Button variant="outlined" padding="square">
 						<Linkedin
 							class="block fill-bright-secondary duration-150 group-hover:fill-[#0A66C2] w-[20px] h-[20px]"
 						/>
 					</Button></a
-				>
-				<a href="https://twitter.com/DevangSaklani" class="group"
+				> -->
+				<!-- <a
+					href="https://twitter.com/DevangSaklani"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="group"
 					><Button variant="outlined" padding="square">
 						<Twitter
 							class="block fill-bright-secondary duration-150 group-hover:fill-[#1DA1F2] w-[20px] h-[20px]"
 						/>
 					</Button></a
-				>
-				<a href="https://github.com/Devang47" class="group"
+				> -->
+				<!-- <a
+					href="https://github.com/Devang47"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="group"
 					><Button variant="outlined" padding="square">
 						<Github
 							class="block fill-bright-secondary duration-150 group-hover:fill-[#989898] w-[20px] h-[20px]"
 						/>
 					</Button></a
-				>
+				> -->
 			</div>
 		</div>
 	</div>

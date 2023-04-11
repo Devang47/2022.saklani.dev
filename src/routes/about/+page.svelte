@@ -6,5 +6,7 @@
 	import '$styles/global.scss';
 </script>
 
-<About />
+<main>
+	<About />
+</main>
 <Footer />

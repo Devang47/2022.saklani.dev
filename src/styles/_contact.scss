@@ -17,6 +17,10 @@
 	.contact-links {
 		@apply flex items-start justify-start flex-col;
 		@apply mt-8 lg:mt-4 w-full md:w-[350px] md:max-w-none;
+
+		a {
+			@apply w-full;
+		}
 	}
 
 	h2 {
