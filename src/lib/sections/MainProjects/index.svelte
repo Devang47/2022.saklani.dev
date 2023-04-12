@@ -4,11 +4,12 @@
 	import RateThumbnails from './Project/RateThumbnails.svelte';
 	import ChatRooms from './Project/ChatRooms.svelte';
 	import TwClone from './Project/TwClone.svelte';
+	import Menyu from './Project/Menyu.svelte';
 </script>
 
-<!--
-<TwClone />
-<div class="mt-32 md:mt-36" />  -->
+<!-- <TwClone /> -->
+<Menyu />
+<div class="mt-32 md:mt-36" />
 <ChatRooms />
 <div class="mt-32 md:mt-36" />
 <RateThumbnails />

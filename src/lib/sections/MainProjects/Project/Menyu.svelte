@@ -8,25 +8,27 @@
 <Container>
 	<div class="project-wrapper">
 		<div class="lg:w-full">
-			<div class="date">2021</div>
-			<div class="title ">
+			<div class="date">2023</div>
+			<div class="title">
 				<a href="https://impulse.saklani.dev/" target="_blank" rel="noopener noreferrer">
-					Impulse | Messaging service</a
+					Menyú | Qr menu generator</a
 				>
 			</div>
 		</div>
 		<div class="detail">
-			An app that helps you to send messages, links, documents to all of your devices in an
-			<span class="highlight"> Encrypted </span>
-			and
-			<span class="highlight"> Secure </span>
-			way! It uses AES and SHA-256 encryption to securely send and store your messages. Basically works
-			like Airdrop and works on every device.
-			<br /> Tools used: React, Nextjs, Firestore, Sass.
+			This app allows restaurants and cafes to easily create a <span class="highlight">
+				digital menu</span
+			>, which customers can access by scanning a <span class="highlight">QR code</span>. It
+			promotes social distancing and reduces physical contact. It also offers a range of
+			customization options, including multiple language support, analytics, and secure hosting.
+			With its user-friendly interface, businesses can quickly adapt to the pandemic situation,
+			while also offering an eco-friendly alternative to traditional paper menus.
+
+			<br /> Tools used: Sveltekit, Tailwind, Firestore.
 			<br />
 			<div class="flex items-center justify-start gap-4 my-3 mt-4 h-[22px]">
 				<a
-					href="https://github.com/Devang47/Impulse"
+					href="https://github.com/Devang47/Menyu"
 					target="_blank"
 					class="highlight h-full"
 					rel="noopener noreferrer"
@@ -34,7 +36,7 @@
 					<Github class="h-full fill-white hover:fill-teal-tint" />
 				</a>
 				<a
-					href="https://impulse.saklani.dev/"
+					href="https://menyu.saklani.dev/"
 					target="_blank"
 					class="highlight h-full"
 					rel="noopener noreferrer"
@@ -48,12 +50,12 @@
 		<div class="w-fit h-full flex items-center justify-start gap-10 pointer-events-none">
 			<img
 				loading="lazy"
-				src="https://res.cloudinary.com/dyn3sdtfm/image/upload/c_scale,w_600/v1662860994/impulse-mobile_yz1xna.webp"
+				src="https://cdn.raster.app/kitatsu/library-1/lvpr9z1UTA?ixlib=js-3.7.0&width=1846&height=3610&compress=false&fm=webp&q=82&s=db1d69646f679cdc2561c39fef46abab"
 				alt=""
 			/>
 			<img
 				loading="lazy"
-				src="https://res.cloudinary.com/dyn3sdtfm/image/upload/c_scale,w_1600/v1662860995/impulse_ciwwbk.webp"
+				src="https://cdn.raster.app/kitatsu/library-1/WAwjDXRS2G?ixlib=js-3.7.0&width=4726&height=3610&compress=false&fm=webp&q=82&s=edde2d54fba0fd04e388144cfae2768d"
 				alt=""
 			/>
 		</div>
