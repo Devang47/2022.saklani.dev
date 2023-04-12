@@ -18,7 +18,7 @@
 		{
 			title: 'Placeholderr | JSON Rest-API',
 			desc: 'It is a JSON placeholder rest-api built using Node, Express and React and deployed to Heroku. It provides many useful endpoints like comments, covid data, images from NASA and images from Unsplash etc.',
-			link: 'https://project-placeholderr.herokuapp.com/',
+			link: 'https://placeholderr.onrender.com/',
 			github: 'https://github.com/Devang47/Project-Placeholderr',
 			image:
 				'https://res.cloudinary.com/dyn3sdtfm/image/upload/c_scale,w_1200/v1662860995/placeholderr_rfuozt.webp'
