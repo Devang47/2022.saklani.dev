@@ -1,8 +1,3 @@
-<script lang="ts">
-	import Github from '$lib/icons/Github.svelte';
-	import Star from '$lib/icons/Star.svelte';
-</script>
-
 <footer>
 	<div class="left-section">
 		<ul>
@@ -55,7 +50,7 @@
 		</ul>
 	</div>
 
-	<div class="flex items-center justify-center flex-col gap-2">
+	<div class="mt-14 md:mt-0 flex items-center justify-center flex-col gap-2">
 		<!-- <div class="footer-links">
 			<a
 				name="github-link"
