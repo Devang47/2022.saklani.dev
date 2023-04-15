@@ -10,7 +10,7 @@
 		<div class="lg:w-full">
 			<div class="date">2023</div>
 			<div class="title">
-				<a href="https://impulse.saklani.dev/" target="_blank" rel="noopener noreferrer">
+				<a href="https://menyu.saklani.dev/" target="_blank" rel="noopener noreferrer">
 					Menyú | Qr menu generator</a
 				>
 			</div>
