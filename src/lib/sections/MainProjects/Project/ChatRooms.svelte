@@ -9,15 +9,15 @@
 	<div class="project-wrapper">
 		<div class="lg:w-full">
 			<div class="date">2022</div>
-			<div class="title ">
+			<div class="title">
 				<a href="https://rooms.saklani.dev/" target="_blank" rel="noopener noreferrer">ChatRooms</a>
 			</div>
 		</div>
 		<div class="detail">
 			In this website you can create a <span class="highlight"> private chat room </span> and share
-			data across <span class="highlight"> multiple devices</span>. When you click the button below
-			it will generate a 6 digit room code which can be then used to join the room from different
-			devices. The chat room will automatically delete after 15min.
+			data across <span class="highlight"> multiple devices</span>. When you click the create room
+			button it will generate a 6 digit room code which can be then used to join the room from
+			different devices. The chat room will automatically delete after 15min.
 			<br /> Tools used: Svetle + Tailwind, Firebase & Firestore, Vercel, Cloudflare Workers, Cron
 			Job.
 			<br />
