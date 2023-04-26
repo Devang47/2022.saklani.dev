@@ -18,8 +18,8 @@
 			data across <span class="highlight"> multiple devices</span>. When you click the create room
 			button it will generate a 6 digit room code which can be then used to join the room from
 			different devices. The chat room will automatically delete after 15min.
-			<br /> Tools used: Svetle + Tailwind, Firebase & Firestore, Vercel, Cloudflare Workers, Cron
-			Job.
+			<br /> Tools used: Vuejs v3 + Tailwind, Firebase & Firestore, Vercel, Serverless functions, &
+			Cron job.
 			<br />
 			<div class="flex items-center justify-start gap-4 my-3 mt-4 h-[22px]">
 				<a
