@@ -32,7 +32,7 @@
 
 		<div class="contact-links">
 			<a
-				href="https://saklani.dev/resume.pdf"
+				href="https://read.cv/devangsaklani"
 				target="_blank"
 				rel="noopener noreferrer"
 				class="w-full"
