@@ -2,7 +2,7 @@
 
 .about-section-wrapper {
 	@apply pt-20 md:py-24 lg:py-28 flex items-center justify-start;
-	@apply relative overflow-hidden text-bright-secondary;
+	@apply relative overflow-hidden text-bright-primary;
 	.intro-content {
 		@apply flex flex-col-reverse lg:flex-row justify-between items-start gap-2 lg:gap-6;
 		@apply mx-auto w-[90%] sm:w-11/12 md:w-10/12 lg:w-[80%] lg:max-w-6xl;

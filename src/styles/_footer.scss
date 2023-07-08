@@ -1,5 +1,5 @@
 footer {
-	@apply py-16 pb-20 md:flex items-end justify-between sticky bottom-0 left-0 w-full text-bright-primary;
+	@apply py-16 pb-20 md:flex items-end justify-between sticky bottom-0 left-0 w-full text-[#c8c8c8];
 	@apply w-[90%] mx-auto md:w-10/12 lg:w-[80%] lg:max-w-6xl;
 
 	.left-section {
@@ -16,6 +16,6 @@ footer {
 	}
 
 	ul {
-		@apply flex flex-col gap-4
+		@apply flex flex-col gap-4;
 	}
 }
