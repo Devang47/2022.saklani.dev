@@ -109,13 +109,7 @@
 
 		<div class="w-full mt-10 lg:my-10 max-w-sm md:max-w-md relative">
 			<p>
-				<!-- <img src="/images/png/devang.png" alt="" /> -->
-				<!-- <img class="rounded-md w-full" src="/images/png/devang-1-min.jpeg" alt="" /> -->
-				<img
-					class="rounded-md w-full"
-					src="https://cdn.raster.app/kitatsu/library-1/JnlFm2GL9D?ixlib=js-3.7.0&width=3201&height=3127&compress=false&fit=crop&rect=196%2C485%2C3201%2C3127&ar=1.0236648544931244&s=70e45811d381bdc1cc07155c0eac0c3b"
-					alt=""
-				/>
+				<img class="rounded-md w-full" src="/images/png/photo.webp" alt="" />
 			</p>
 			<div class="reveal" />
 		</div>
