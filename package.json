@@ -47,6 +47,7 @@
 	"type": "module",
 	"dependencies": {
 		"@builder.io/partytown": "^0.7.6",
+		"@vercel/analytics": "^1.0.1",
 		"motion": "^10.15.5"
 	},
 	"repository": {
