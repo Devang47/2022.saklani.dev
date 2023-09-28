@@ -32,7 +32,7 @@
 
 		<div class="contact-links">
 			<a
-				href="https://read.cv/devangsaklani"
+				href="https://devangsaklani.read.cv/"
 				target="_blank"
 				rel="noopener noreferrer"
 				class="w-full"
