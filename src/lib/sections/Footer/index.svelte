@@ -16,7 +16,7 @@
 				<a
 					class="highlight-name"
 					aria-label="profile-link-Readcv"
-					href="https://read.cv/devangsaklani"
+					href="https://devangsaklani.read.cv/"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
