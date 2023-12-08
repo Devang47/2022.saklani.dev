@@ -109,7 +109,11 @@
 
 		<div class="w-full mt-10 lg:my-10 max-w-sm md:max-w-md relative">
 			<p>
-				<img class="rounded-md w-full" src="/images/png/photo.webp" alt="" />
+				<img
+					class="rounded-md w-full"
+					src="https://rstr.in/kitatsu/library-1/ue3hORzuEtJ/8Zss_DI_APs"
+					alt=""
+				/>
 			</p>
 			<div class="reveal" />
 		</div>

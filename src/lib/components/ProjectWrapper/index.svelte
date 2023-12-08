@@ -9,7 +9,7 @@
 </script>
 
 <section class="project-section" bind:this={sectionRef}>
-	<div class=" z-10 relative">
+	<div class="z-10 relative">
 		<slot />
 	</div>
 </section>

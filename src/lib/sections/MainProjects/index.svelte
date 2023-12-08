@@ -1,9 +1,7 @@
 <script lang="ts">
 	import Impulse from './Project/Impulse.svelte';
-	import ThreejsPortfolio from './Project/ThreejsPortfolio.svelte';
 	import RateThumbnails from './Project/RateThumbnails.svelte';
 	import ChatRooms from './Project/ChatRooms.svelte';
-	import TwClone from './Project/TwClone.svelte';
 	import Menyu from './Project/Menyu.svelte';
 </script>
 

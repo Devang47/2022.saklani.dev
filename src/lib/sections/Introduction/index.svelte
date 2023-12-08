@@ -69,10 +69,13 @@
 				<Button bind:bindTarget={animateBtn1} class=" opacity-0 " variant="filled">About me</Button>
 				<div class="reveal" bind:this={animateBtn1BG} />
 			</a>
-			<a href="#contact" class="mt-6 w-full relative">
+			<button
+				on:click={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
+				class="mt-6 w-full relative"
+			>
 				<Button bind:bindTarget={animateBtn2} variant="outlined" class=" opacity-0">Contact</Button>
 				<div class="reveal" bind:this={animateBtn2BG} />
-			</a>
+			</button>
 		</div>
 	</div>
 </header>

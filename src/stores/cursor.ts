@@ -1,5 +1,4 @@
 import { get, writable } from 'svelte/store';
-import { animate } from 'motion';
 
 export const observer = writable<IntersectionObserver>();
 
