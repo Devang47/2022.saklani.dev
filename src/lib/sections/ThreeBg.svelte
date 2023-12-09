@@ -43,7 +43,7 @@
 
 		const init = () => {
 			camera = new PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
-			camera.position.z = 100;
+			camera.position.z = innerWidth > 750 ? 100 : 500;
 
 			scene = new Scene();
 

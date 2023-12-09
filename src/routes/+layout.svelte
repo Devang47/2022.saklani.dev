@@ -16,7 +16,6 @@
 </script>
 
 <svelte:head>
-	<!-- Google tag (gtag.js) -->
 	<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-LD4WWE9J3R">
 	</script>
 
@@ -57,7 +56,6 @@
 		};
 	</script>
 
-	<!-- `partytownSnippet` is inserted here -->
 	<script bind:this={scriptEl}></script>
 </svelte:head>
 
@@ -72,7 +70,7 @@
 		description:
 			'Devang Saklani is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences and web apps.',
 		url: 'https://saklani.dev',
-		images: [{ url: 'https://res.cloudinary.com/dyn3sdtfm/image/upload/v1662864033/og_iflgia.jpg' }]
+		images: [{ url: 'https://saklani.dev/og.png' }]
 	}}
 	twitter={{
 		card: 'summary_large_image',
@@ -80,7 +78,7 @@
 		title: 'Devang Saklani | Software Engineer',
 		description:
 			'Devang Saklani is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences and web apps.',
-		image: 'https://res.cloudinary.com/dyn3sdtfm/image/upload/v1662864033/og_iflgia.jpg',
+		image: 'https://saklani.dev/og.png',
 		imageAlt: 'Devang Saklani | Software Engineer'
 	}}
 />
