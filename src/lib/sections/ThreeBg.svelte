@@ -1,6 +1,15 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import * as THREE from 'three';
+	import {
+		Vector2,
+		PerspectiveCamera,
+		Scene,
+		WebGLRenderer,
+		SphereGeometry,
+		MeshBasicMaterial,
+		TextureLoader,
+		Mesh,
+	} from 'three';
 
 	let canvasEl: HTMLCanvasElement;
 	onMount(() => {
@@ -9,8 +18,8 @@
 			renderer,
 			stars = [];
 
-		const mouse = new THREE.Vector2();
-		const target = new THREE.Vector2();
+		const mouse = new Vector2();
+		const target = new Vector2();
 
 		const resize = () => {
 			renderer.setSize(window.innerWidth, window.innerHeight);
@@ -19,33 +28,30 @@
 		};
 
 		function init() {
-			camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
+			camera = new PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
 			camera.position.z = 5;
 
-			scene = new THREE.Scene();
+			scene = new Scene();
 
-			renderer = new THREE.WebGLRenderer({ antialias: true, canvas: canvasEl, alpha: true });
+			renderer = new WebGLRenderer({ antialias: true, canvas: canvasEl, alpha: true });
 			renderer.setClearColor(0x000000, 0);
 
 			resize();
 		}
 
 		function addSphere() {
-			for (var z = -1000; z < 1000; z += 20) {
-				var geometry = new THREE.SphereGeometry(0.5, 32, 32);
-				var material = new THREE.MeshBasicMaterial({ color: 0xa2a2a2 });
+			let geometry = new SphereGeometry(0.5, 32, 32);
+			let material = new MeshBasicMaterial({ color: 0xa2a2a2 });
+			const textureLoader = new TextureLoader();
+			const texture = textureLoader.load('/star.png');
+			material.alphaMap = texture;
 
-				const textureLoader = new THREE.TextureLoader();
-				const texture = textureLoader.load('/star.png');
-				material.alphaMap = texture;
-
-				var sphere = new THREE.Mesh(geometry, material);
+			for (let z = -1000; z < 1000; z += 20) {
+				let sphere = new Mesh(geometry, material);
 
 				sphere.position.x = Math.random() * 1000 - 500;
 				sphere.position.y = Math.random() * 1000 - 500;
-
 				sphere.position.z = z;
-
 				sphere.scale.x = sphere.scale.y = 2;
 
 				scene.add(sphere);
@@ -54,7 +60,7 @@
 		}
 
 		function animateStars() {
-			for (var i = 0; i < stars.length; i++) {
+			for (let i = 0; i < stars.length; i++) {
 				let star = stars[i];
 				star.position.z += i / 30;
 				if (star.position.z > 1000) star.position.z -= 2000;
