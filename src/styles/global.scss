@@ -81,7 +81,7 @@ canvas {
 }
 
 .highlight {
-	@apply text-transparent bg-clip-text bg-blue-gradient;
+	@apply font-semibold;
 }
 
 .visible-animate {

@@ -53,14 +53,9 @@
 	<div class="intro-content">
 		<h1 class="my-short-intro">
 			<p bind:this={paragraphText}>
-				Hello! I’m Devang Saklani — curious developer based in Uttarakhand, India 🇮🇳. Interested in
-
-				<span class="text-[#e06b74]"> meditation</span>,
-				<span class="text-[#98c379]"> websites</span>,
-				<span class="text-[#e5c07a]"> science & developer tools</span>,
-				<span class="text-[#62aeef]"> human interactions</span>,
-				<span class="text-[#c778dd]"> productivity</span>. Currently learning DevOps and looking for
-				new opportunities as a Web Developer.
+				Hello! I’m <span class="font-semibold"> Devang Saklani</span> — curious developer based in Uttarakhand,
+				India 🇮🇳. Interested in photography, cycling, science & developer tools, human interactions,
+				productivity. Currently learning DevOps and looking for new opportunities as a Web Developer.
 			</p>
 			<div class="reveal" bind:this={paragraphReveal} />
 		</h1>
