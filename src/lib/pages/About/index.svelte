@@ -120,7 +120,7 @@
 	</div>
 </section>
 
-<a href="/" class="absolute top-5 left-5 h-12 w-12 cursor-pointer">
+<a href="/" class="absolute top-5 left-5 h-12 w-12 cursor-pointer" aria-label="Got to homepage">
 	<Close class="w-full h-full" />
 </a>
 

@@ -60,15 +60,25 @@
 			<div class="reveal" bind:this={paragraphReveal} />
 		</h1>
 		<div class="introduction-links">
-			<a href="/about" class="w-full relative">
-				<Button bind:bindTarget={animateBtn1} class=" opacity-0 " variant="filled">About me</Button>
+			<a aria-label="Visit about page" href="/about" class="w-full relative">
+				<Button
+					label="Visit about page"
+					bind:bindTarget={animateBtn1}
+					class="opacity-0"
+					variant="filled">About me</Button
+				>
 				<div class="reveal" bind:this={animateBtn1BG} />
 			</a>
 			<button
 				on:click={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
 				class="mt-6 w-full relative"
 			>
-				<Button bind:bindTarget={animateBtn2} variant="outlined" class=" opacity-0">Contact</Button>
+				<Button
+					label="Show contact links"
+					bind:bindTarget={animateBtn2}
+					variant="outlined"
+					class="opacity-0">Contact</Button
+				>
 				<div class="reveal" bind:this={animateBtn2BG} />
 			</button>
 		</div>

@@ -36,16 +36,22 @@
 				target="_blank"
 				rel="noopener noreferrer"
 				class="w-full"
+				aria-label="Visit the resume of devang saklani"
 			>
-				<Button variant="filled"
+				<Button label="View resume" variant="filled"
 					>My Resume
 
 					<ExternalLink class="ml-2" />
 				</Button>
 			</a>
 			<div class="flex items-center justify-around gap-4 mt-4 w-full">
-				<a href="https://cal.com/devang" target="_blank" rel="noopener noreferrer" class="group"
-					><Button variant="outlined" padding="square">
+				<a
+					href="https://cal.com/devang"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="group"
+					aria-label="Schedule a call with devang saklani"
+					><Button label="Schedule a call" variant="outlined" padding="square">
 						<CalLogo
 							class="block fill-bright-secondary duration-150 group-hover:fill-white w-[30px]"
 						/>
@@ -56,7 +62,8 @@
 					target="_blank"
 					rel="noopener noreferrer"
 					class="group"
-					><Button variant="outlined" padding="square">
+					aria-label="Send a email to devang saklani"
+					><Button label="Send email" variant="outlined" padding="square">
 						<Gmail
 							class="block fill-bright-secondary duration-150 group-hover:fill-[#EA4335] w-[20px] h-[20px]"
 						/>

@@ -99,7 +99,7 @@
 					href={projectsData[selectedProject].link}
 					bind:this={externalLinkIcon}
 				>
-					<Link class=" h-[1.3rem] w-[1.3rem] text-white hover:text-teal-tint" />
+					<Link class="h-[1.3rem] w-[1.3rem] text-white hover:text-teal-tint" />
 				</a>
 				<a
 					target="_blank"
