@@ -5,13 +5,7 @@ import { partytownVite } from '@builder.io/partytown/utils';
 import path from 'path';
 
 const config: UserConfig = {
-	plugins: [
-		sveltekit(),
-		partytownVite({
-			// `dest` specifies where files are copied to in production
-			dest: join(process.cwd(), '.vercel/output/static', '~partytown')
-		})
-	],
+	plugins: [sveltekit(), partytownVite({ dest: join(process.cwd(), 'static', '~partytown') })],
 	resolve: {
 		alias: {
 			$stores: path.resolve('./src/stores'),

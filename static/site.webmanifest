@@ -4,10 +4,15 @@
 	"start_url": "/",
 	"icons": [
 		{
-			"src": "/images/favicon/favicon.png",
+			"src": "/images/favicon/favicon.svg",
 			"sizes": "512x512",
 			"type": "image/png"
 		},
+		{
+			"src": "/images/favicon/favicon.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		}
 	],
 	"theme_color": "#040407",
 	"background_color": "#040407",
